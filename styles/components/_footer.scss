@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $dark-purple;
+    padding: 30px 60px 30px 60px;
+}
+
+.logo-copyright {
+    display: flex;
+    align-items: center;
+
+    p {
+        padding-left: 20px;
+    }
+}
+
+.resume-contact-social {
+    display: flex;
+    align-items: center;
+
+    ul {
+        display: flex;
+        margin: 0 50px 0 25px;
+
+        li {
+            padding-left: 25px;
+        }
+    }
+}

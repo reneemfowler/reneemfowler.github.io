@@ -53,13 +53,46 @@ h6 {
   line-height: 12px;
   text-transform: uppercase; }
 
+footer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #fff;
+  line-height: 17px; }
+  footer a {
+    color: #fff;
+    font-weight: 400;
+    text-transform: lowercase; }
+
 .container {
-  width: 1200px; }
+  width: 1200px;
+  margin: 0 auto; }
 
 ul {
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
 
 a {
   text-decoration: none; }
 
-/*# sourceMappingURL=styles.css.map */
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #342839;
+  padding: 30px 60px 30px 60px; }
+
+.logo-copyright {
+  display: flex;
+  align-items: center; }
+  .logo-copyright p {
+    padding-left: 20px; }
+
+.resume-contact-social {
+  display: flex;
+  align-items: center; }
+  .resume-contact-social ul {
+    display: flex;
+    margin: 0 50px 0 25px; }
+    .resume-contact-social ul li {
+      padding-left: 25px; }
+
+/*# sourceMappingURL=base.css.map */
