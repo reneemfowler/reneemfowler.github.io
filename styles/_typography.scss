@@ -1,0 +1,63 @@
+/* Typography */
+@font-face {
+    font-family: Angelline;
+    src: url(../fonts/angelline.otf), url(../fonts/angeline.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: $black;
+    line-height: 24px;
+}
+
+h1 {
+    font-family: 'Angelline', script;
+    text-transform: lowercase;
+    font-size: 90px;
+    color: $med-green;
+}
+
+h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color: $dark-purple;
+    line-height: 70px;
+    text-transform: lowercase;
+}
+
+h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: lowercase;
+}
+
+h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: $dark-purple;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 10px;
+    color: $dark-purple;
+    line-height: 12px;
+    text-transform: uppercase;
+}
