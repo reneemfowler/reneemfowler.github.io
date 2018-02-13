@@ -1,6 +1,7 @@
 .container {
     width: $site-width;
     margin: 0 auto;
+    min-height: 100vh;
 }
 
 ul {
@@ -10,4 +11,28 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.button-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-top: 40px;
+
+    .button-bg {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        z-index: 0;
+        background-color: $med-green;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+button {
+    position: relative;
+    padding: 10px 20px;
+    border: 1px solid $black;
+    background: none;
+    z-index: 1;
 }
