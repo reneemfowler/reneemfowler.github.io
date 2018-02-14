@@ -17,7 +17,9 @@ h1 {
     font-family: 'Angelline', script;
     text-transform: lowercase;
     font-size: 90px;
+    text-align: center;
     color: $med-green;
+    margin-bottom: 45px;
 }
 
 h2 {
@@ -28,7 +30,7 @@ h2 {
     line-height: 70px;
     text-transform: lowercase;
     margin: 0;
-    padding: 30px 0 15px 0;
+    padding-bottom: 15px;
 }
 
 h3 {
@@ -68,6 +70,58 @@ p {
     margin: 0;
 }
 
+.header-content-wrapper {
+    p {
+        text-transform: uppercase;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+
+.scroll-down-wrapper {
+    p {
+        font-size: 8px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #4A4A4A;
+        line-height: 10px;
+    }
+}
+
+button {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+
+    a {
+        color: $black;
+    }
+}
+
+.nav-links {
+    ul {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 15px;
+        text-transform: lowercase;
+
+        li:nth-child(4) {
+            font-weight: 900;
+
+            a {
+                color: $dark-green;
+            }
+        }
+    }
+
+    a {
+        color: $black;
+    }
+
+}
+
 footer {
     font-weight: 300;
     font-size: 14px;
@@ -78,18 +132,5 @@ footer {
         color: #fff;
         font-weight: 400;
         text-transform: lowercase;
-    }
-}
-
-button {
-    font-family: 'Lato', sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 12px;
-    text-transform: uppercase;
-    text-align: center;
-
-    a {
-        color: $black;
     }
 }

@@ -14,7 +14,9 @@ h1 {
   font-family: 'Angelline', script;
   text-transform: lowercase;
   font-size: 90px;
-  color: #88CAC9; }
+  text-align: center;
+  color: #88CAC9;
+  margin-bottom: 45px; }
 
 h2 {
   font-family: 'Fira Sans', sans-serif;
@@ -24,7 +26,7 @@ h2 {
   line-height: 70px;
   text-transform: lowercase;
   margin: 0;
-  padding: 30px 0 15px 0; }
+  padding-bottom: 15px; }
 
 h3 {
   font-family: 'Fira Sans', sans-serif;
@@ -58,6 +60,39 @@ h6 {
 p {
   margin: 0; }
 
+.header-content-wrapper p {
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 22px; }
+
+.scroll-down-wrapper p {
+  font-size: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4A4A4A;
+  line-height: 10px; }
+
+button {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-align: center; }
+  button a {
+    color: #2B2B2C; }
+
+.nav-links ul {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 15px;
+  text-transform: lowercase; }
+  .nav-links ul li:nth-child(4) {
+    font-weight: 900; }
+    .nav-links ul li:nth-child(4) a {
+      color: #527A7A; }
+.nav-links a {
+  color: #2B2B2C; }
+
 footer {
   font-weight: 300;
   font-size: 14px;
@@ -67,16 +102,6 @@ footer {
     color: #fff;
     font-weight: 400;
     text-transform: lowercase; }
-
-button {
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 12px;
-  text-transform: uppercase;
-  text-align: center; }
-  button a {
-    color: #2B2B2C; }
 
 .container {
   width: 1200px;
@@ -99,7 +124,7 @@ a {
     top: 5px;
     left: 5px;
     z-index: 0;
-    background-color: #88CAC9;
+    background-color: #BEE2E2;
     height: 100%;
     width: 100%; }
 
@@ -110,6 +135,47 @@ button {
   background: none;
   z-index: 1; }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 15px 10px 10px 60px; }
+  nav .main-nav-logo {
+    display: flex; }
+  nav .nav-links {
+    display: flex;
+    align-items: center; }
+    nav .nav-links ul {
+      margin: 0;
+      display: flex; }
+      nav .nav-links ul li {
+        padding-right: 50px; }
+      nav .nav-links ul li:nth-child(5),
+      nav .nav-links ul li:nth-child(6) {
+        padding-right: 15px; }
+      nav .nav-links ul img {
+        opacity: 0.60; }
+
+.header-content-wrapper {
+  margin: 0 auto;
+  max-width: 590px;
+  display: flex;
+  flex-direction: column; }
+
+.title-location-wrapper {
+  display: flex;
+  justify-content: space-evenly; }
+
+.scroll-down-wrapper {
+  margin: 0 auto;
+  max-width: 130px;
+  display: flex; }
+  .scroll-down-wrapper p {
+    padding-left: 10px; }
+
 section.about-me {
   background: rgba(190, 226, 226, 0.3) linear-gradient(0deg, rgba(255, 255, 255, 0.35) 0%, rgba(136, 202, 201, 0.41) 23%, rgba(111, 134, 147, 0.53) 48%, rgba(118, 92, 128, 0.62) 73%, #583765 100%); }
 
@@ -117,10 +183,11 @@ section.about-me {
   margin: 0 auto;
   text-align: center;
   max-width: 893px;
-  padding-top: 60px;
+  padding-top: 100px;
   padding-bottom: 30px; }
   .about-wrapper img {
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin-bottom: 20px; }
   .about-wrapper p:nth-child(4) {
     padding-top: 24px; }
 

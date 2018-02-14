@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 15px 10px 10px 60px;
+
+    .main-nav-logo {
+        display: flex;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+
+        ul {
+            margin: 0;
+            display: flex;
+
+            li {
+                padding-right: 50px;
+            }
+
+            li:nth-child(5),
+            li:nth-child(6) {
+                padding-right: 15px;
+            }
+
+            img {
+                opacity: 0.60;
+            }
+        }
+    }
+}

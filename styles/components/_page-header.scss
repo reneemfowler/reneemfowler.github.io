@@ -1,0 +1,21 @@
+.header-content-wrapper {
+    margin: 0 auto;
+    max-width: 590px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-location-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scroll-down-wrapper {
+    margin: 0 auto;
+    max-width: 130px;
+    display: flex;
+
+    p {
+        padding-left: 10px;
+    }
+}
