@@ -88,18 +88,6 @@ p {
     }
 }
 
-button {
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 12px;
-    text-transform: uppercase;
-    text-align: center;
-
-    a {
-        color: $black;
-    }
-}
-
 .nav-links {
     ul {
         font-weight: 400;
@@ -122,6 +110,39 @@ button {
 
 }
 
+.testimonials {
+    blockquote {
+        font-weight: 400;
+        font-style: italic;
+        color: #fff;
+
+        span {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 76px;
+            color: $lt-green;
+        }
+
+    }
+}
+
+.testimonial-client {
+    p {
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    p:last-child {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: $lt-green;
+    }
+}
+
 footer {
     font-weight: 300;
     font-size: 14px;
@@ -132,5 +153,17 @@ footer {
         color: #fff;
         font-weight: 400;
         text-transform: lowercase;
+    }
+}
+
+button {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+
+    a {
+        color: $black;
     }
 }
