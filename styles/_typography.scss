@@ -47,6 +47,7 @@ h4 {
     font-size: 20px;
     line-height: 29px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h5 {
@@ -64,6 +65,10 @@ h6 {
     color: $dark-purple;
     line-height: 12px;
     text-transform: uppercase;
+}
+
+ul {
+    margin: 0;
 }
 
 p {
@@ -108,6 +113,17 @@ p {
         color: $black;
     }
 
+}
+
+.process-tile {
+    text-align: center;
+    color: #fff;
+
+    ul {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+    }
 }
 
 .testimonials {

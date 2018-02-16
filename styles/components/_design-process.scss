@@ -1,0 +1,59 @@
+.design-process-wrapper {
+    padding-bottom: 60px;
+}
+
+.design-process-intro {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 895px;
+    padding-bottom: 90px;
+}
+
+.design-process-tiles {
+    display: flex;
+}
+
+.process-tile {
+    width: 200px;
+    height: 200px;
+    background-color: $med-purple;
+    transform: rotate(45deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(114, 114, 114, 0.60);
+
+    .process-tile-content {
+        transform: rotate(-45deg);
+    }
+
+    img {
+        padding-bottom: 7px;
+    }
+
+    h4 {
+        color: #fff;
+    }
+}
+
+.process-tile:first-child {
+    margin-top: 110px;
+}
+
+.process-tile:nth-child(2) {
+    background-color: $med-green;
+}
+
+.process-tile:nth-child(3) {
+    background-color: $med-pink;
+    margin-top: 110px;
+}
+
+.process-tile:nth-child(4) {
+    background-color: $lt-green;
+}
+
+.process-tile:last-child {
+    background-color: $dark-purple;
+    margin-top: 110px;
+}

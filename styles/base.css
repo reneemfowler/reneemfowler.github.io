@@ -40,7 +40,8 @@ h4 {
   font-weight: 600;
   font-size: 20px;
   line-height: 29px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
 
 h5 {
   font-family: 'Fira Sans', sans-serif;
@@ -56,6 +57,9 @@ h6 {
   color: #342839;
   line-height: 12px;
   text-transform: uppercase; }
+
+ul {
+  margin: 0; }
 
 p {
   margin: 0; }
@@ -83,6 +87,14 @@ p {
       color: #527A7A; }
 .nav-links a {
   color: #2B2B2C; }
+
+.process-tile {
+  text-align: center;
+  color: #fff; }
+  .process-tile ul {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px; }
 
 .testimonials blockquote {
   font-weight: 400;
@@ -213,6 +225,51 @@ section.about-me {
     margin-bottom: 20px; }
   .about-wrapper p:nth-child(4) {
     padding-top: 24px; }
+
+.design-process-wrapper {
+  padding-bottom: 60px; }
+
+.design-process-intro {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 895px;
+  padding-bottom: 90px; }
+
+.design-process-tiles {
+  display: flex; }
+
+.process-tile {
+  width: 200px;
+  height: 200px;
+  background-color: #56425E;
+  transform: rotate(45deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 5px 5px 10px rgba(114, 114, 114, 0.6); }
+  .process-tile .process-tile-content {
+    transform: rotate(-45deg); }
+  .process-tile img {
+    padding-bottom: 7px; }
+  .process-tile h4 {
+    color: #fff; }
+
+.process-tile:first-child {
+  margin-top: 110px; }
+
+.process-tile:nth-child(2) {
+  background-color: #88CAC9; }
+
+.process-tile:nth-child(3) {
+  background-color: #D8C3CA;
+  margin-top: 110px; }
+
+.process-tile:nth-child(4) {
+  background-color: #BEE2E2; }
+
+.process-tile:last-child {
+  background-color: #342839;
+  margin-top: 110px; }
 
 section.testimonials {
   background: #56425E linear-gradient(0deg, rgba(255, 255, 255, 0.35) 0%, rgba(136, 202, 201, 0.41) 23%, rgba(111, 134, 147, 0.53) 48%, rgba(118, 92, 128, 0.62) 73%, #583765 100%); }
