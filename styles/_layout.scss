@@ -7,6 +7,14 @@
     align-items: center;
 }
 
+.container-small {
+    width: $site-width;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -24,7 +32,7 @@ a:hover {
 .button-wrapper {
     position: relative;
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 30px;
 
     .button-bg {
         position: absolute;

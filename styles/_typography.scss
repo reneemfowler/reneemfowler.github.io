@@ -30,7 +30,6 @@ h2 {
     line-height: 70px;
     text-transform: lowercase;
     margin: 0;
-    padding-bottom: 15px;
 }
 
 h3 {
@@ -39,6 +38,8 @@ h3 {
     font-size: 36px;
     line-height: 53px;
     text-transform: lowercase;
+    margin: 0;
+    padding-bottom: 15px;
 }
 
 h4 {
@@ -57,6 +58,7 @@ h5 {
     color: $dark-purple;
     line-height: 17px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h6 {
@@ -71,8 +73,9 @@ ul {
     margin: 0;
 }
 
-p {
-    margin: 0;
+a {
+    font-weight: 900;
+    color: $dark-green;
 }
 
 .header-content-wrapper {
@@ -99,20 +102,19 @@ p {
         font-size: 14px;
         line-height: 15px;
         text-transform: lowercase;
-
-        li:nth-child(4) {
-            font-weight: 900;
-
-            a {
-                color: $dark-green;
-            }
-        }
     }
 
     a {
+        font-weight: 400;
         color: $black;
     }
 
+    li:nth-child(4) {
+        a {
+            font-weight: 900;
+            color: $dark-green;
+        }
+    }
 }
 
 .process-tile {

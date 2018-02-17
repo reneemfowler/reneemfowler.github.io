@@ -25,15 +25,16 @@ h2 {
   color: #342839;
   line-height: 70px;
   text-transform: lowercase;
-  margin: 0;
-  padding-bottom: 15px; }
+  margin: 0; }
 
 h3 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 800;
   font-size: 36px;
   line-height: 53px;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  margin: 0;
+  padding-bottom: 15px; }
 
 h4 {
   font-family: 'Fira Sans', sans-serif;
@@ -49,7 +50,8 @@ h5 {
   font-size: 12px;
   color: #342839;
   line-height: 17px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
 
 h6 {
   font-weight: 700;
@@ -61,8 +63,9 @@ h6 {
 ul {
   margin: 0; }
 
-p {
-  margin: 0; }
+a {
+  font-weight: 900;
+  color: #527A7A; }
 
 .header-content-wrapper p {
   text-transform: uppercase;
@@ -81,12 +84,12 @@ p {
   font-size: 14px;
   line-height: 15px;
   text-transform: lowercase; }
-  .nav-links ul li:nth-child(4) {
-    font-weight: 900; }
-    .nav-links ul li:nth-child(4) a {
-      color: #527A7A; }
 .nav-links a {
+  font-weight: 400;
   color: #2B2B2C; }
+.nav-links li:nth-child(4) a {
+  font-weight: 900;
+  color: #527A7A; }
 
 .process-tile {
   text-align: center;
@@ -145,6 +148,13 @@ button {
   justify-content: center;
   align-items: center; }
 
+.container-small {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 ul {
   list-style: none;
   padding: 0; }
@@ -159,7 +169,7 @@ a:hover {
 .button-wrapper {
   position: relative;
   display: inline-block;
-  margin-top: 40px; }
+  margin-top: 30px; }
   .button-wrapper .button-bg {
     position: absolute;
     top: 5px;
@@ -227,8 +237,6 @@ section.about-me {
   .about-wrapper img {
     border-radius: 50%;
     margin-bottom: 20px; }
-  .about-wrapper p:nth-child(4) {
-    padding-top: 24px; }
 
 .design-process-wrapper {
   padding-bottom: 60px; }
@@ -303,6 +311,40 @@ section.testimonials {
     padding-top: 20px; }
   .testimonial-client p:last-child {
     padding-top: 0; }
+
+.case-study-centered {
+  text-align: center;
+  background-color: #D8EEEE; }
+
+.case-study-wrapper-centered {
+  max-width: 895px;
+  padding: 50px 0; }
+
+.case-study-content-wrapper {
+  display: flex;
+  max-width: 1048px; }
+
+.case-study-content-left {
+  flex: 0 1 40%; }
+
+.case-study-content-right {
+  flex: 0 1 60%; }
+
+.conclusion {
+  position: relative; }
+
+.conclusion-bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0.45;
+  background: #BEE2E2;
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.35) 0%, rgba(136, 202, 201, 0.41) 23%, rgba(111, 134, 147, 0.53) 48%, rgba(118, 92, 128, 0.62) 73%, #583765 100%); }
+
+.conclusion-content {
+  position: relative;
+  z-index: 2; }
 
 footer {
   display: flex;
