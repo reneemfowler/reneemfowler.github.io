@@ -152,6 +152,10 @@ ul {
 a {
   text-decoration: none; }
 
+a:hover {
+  color: #88CAC9;
+  text-decoration: underline; }
+
 .button-wrapper {
   position: relative;
   display: inline-block;
