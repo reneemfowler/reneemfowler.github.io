@@ -90,22 +90,16 @@
 
 
 // User Stories & User Flows
-.user-stories-flow {
+.user-stories-flows {
     background-color: #F8FAFA;
 }
 
-.user-stories-flows-wrapper {
-    align-items: flex-start;
-    justify-content: space-around;
-    padding-top: 80px;
-}
-
 .user-stories {
-    width: 435px;
+    flex: 0 1 45%;
 }
 
 .user-flows {
-    width: 435px;
+    flex: 0 1 45%;
 }
 
 .user-stories-flows-example {
