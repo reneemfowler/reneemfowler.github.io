@@ -343,14 +343,16 @@ section.testimonials {
 
 .case-study-content-wrapper {
   display: flex;
-  max-width: 1048px; }
+  justify-content: space-between; }
 
 .case-study-content-left {
   flex: 0 1 40%; }
 
 .case-study-content-right {
-  flex: 0 1 60%;
-  padding-left: 80px; }
+  flex: 0 1 50%; }
+
+.graphic-content-right {
+  text-align: center; }
 
 .survey {
   background-color: #F2F5F5; }
@@ -395,9 +397,6 @@ section.testimonials {
 
 .survey-finding {
   width: 280px; }
-
-.ca-infographic {
-  text-align: center; }
 
 .user-stories-flow {
   background-color: #F8FAFA; }
@@ -486,6 +485,15 @@ section.testimonials {
 
 .moneta-headings {
   padding-right: 110px; }
+
+.testing-bg {
+  background-color: #F8FAFA; }
+
+.test-plan {
+  font-size: 14px; }
+
+.test-plan-section {
+  padding-top: 15px; }
 
 .conclusion {
   position: relative; }

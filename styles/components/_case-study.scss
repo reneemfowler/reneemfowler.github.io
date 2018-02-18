@@ -11,7 +11,7 @@
 
 .case-study-content-wrapper {
     display: flex;
-    max-width: 1048px;
+    justify-content: space-between;
 }
 
 .case-study-content-left {
@@ -19,8 +19,11 @@
 }
 
 .case-study-content-right {
-    flex: 0 1 60%;
-    padding-left: 80px;
+    flex: 0 1 50%;
+}
+
+.graphic-content-right {
+    text-align: center;
 }
 
 // Survey Section
@@ -85,10 +88,6 @@
     width: 280px;
 }
 
-// Competitive Analysis
-.ca-infographic {
-    text-align: center;
-}
 
 // User Stories & User Flows
 .user-stories-flow {
@@ -227,6 +226,18 @@
     padding-right: 110px;
 }
 
+// Testing
+.testing-bg {
+    background-color: #F8FAFA;
+}
+
+.test-plan {
+    font-size: 14px;
+}
+
+.test-plan-section {
+    padding-top: 15px;
+}
 
 // Conclusion
 .conclusion {
