@@ -107,13 +107,124 @@
 
 .user-flows {
     width: 435px;
-    //background-color: #F2F5F5;
 }
 
 .user-stories-flows-example {
     div:nth-child(2) {
         padding-top: 15px;
     }
+}
+
+// Branding & Identity
+.style-guide-sections {
+    padding-top: 40px;
+    display: flex;
+
+    h6 {
+        padding-bottom: 15px;
+    }
+
+    ul {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+}
+
+
+.branding-logo-variations {
+    ul {
+        display: flex;
+
+        li:last-child {
+            background-color: #42BBC5;
+        }
+    }
+
+    li {
+        width: 130px;
+        height: 130px;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 1px solid #F1F1F1;
+        box-shadow: 5px 5px 4px #DBDADC;
+        margin-right: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.moneta-primary-palette {
+    padding-right: 60px;
+}
+
+.colour-swatches {
+    display: flex;
+
+    li {
+        display: flex;
+        flex-direction: column;
+        padding-right: 20px;
+    }
+
+    .moneta-dk-blue {
+        background-color: #4D7298;
+    }
+
+    .moneta-med-blue {
+        background-color: #42BBC5;
+    }
+
+    .moneta-med-green {
+        background-color: #9AEAD4;
+    }
+
+    .moneta-lt-green {
+        background-color: #EDF7F4
+    }
+
+    .moneta-pink {
+        background-color: #E17BAC;
+    }
+
+    .moneta-purple {
+        background-color: #83437E;
+    }
+}
+
+.colour-swatch {
+    width: 55px;
+    height: 55px;
+    background-color: #111111;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.moneta-typography {
+    ul {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .playfair-display-black-heading {
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+
+    .montserrat-medium-heading {
+        font-family: 'Montserrat', serif;
+        font-weight: 500;
+    }
+
+    .montserrat-light-body {
+        font-family: 'Montserrat', serif;
+        font-weight: 300;
+    }
+}
+
+.moneta-headings {
+    padding-right: 110px;
 }
 
 

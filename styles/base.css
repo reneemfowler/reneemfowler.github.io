@@ -416,6 +416,77 @@ section.testimonials {
 .user-stories-flows-example div:nth-child(2) {
   padding-top: 15px; }
 
+.style-guide-sections {
+  padding-top: 40px;
+  display: flex; }
+  .style-guide-sections h6 {
+    padding-bottom: 15px; }
+  .style-guide-sections ul {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px; }
+
+.branding-logo-variations ul {
+  display: flex; }
+  .branding-logo-variations ul li:last-child {
+    background-color: #42BBC5; }
+.branding-logo-variations li {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #F1F1F1;
+  box-shadow: 5px 5px 4px #DBDADC;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.moneta-primary-palette {
+  padding-right: 60px; }
+
+.colour-swatches {
+  display: flex; }
+  .colour-swatches li {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px; }
+  .colour-swatches .moneta-dk-blue {
+    background-color: #4D7298; }
+  .colour-swatches .moneta-med-blue {
+    background-color: #42BBC5; }
+  .colour-swatches .moneta-med-green {
+    background-color: #9AEAD4; }
+  .colour-swatches .moneta-lt-green {
+    background-color: #EDF7F4; }
+  .colour-swatches .moneta-pink {
+    background-color: #E17BAC; }
+  .colour-swatches .moneta-purple {
+    background-color: #83437E; }
+
+.colour-swatch {
+  width: 55px;
+  height: 55px;
+  background-color: #111111;
+  border-radius: 50%;
+  margin-bottom: 10px; }
+
+.moneta-typography ul {
+  font-size: 24px;
+  line-height: 32px; }
+.moneta-typography .playfair-display-black-heading {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900; }
+.moneta-typography .montserrat-medium-heading {
+  font-family: 'Montserrat', serif;
+  font-weight: 500; }
+.moneta-typography .montserrat-light-body {
+  font-family: 'Montserrat', serif;
+  font-weight: 300; }
+
+.moneta-headings {
+  padding-right: 110px; }
+
 .conclusion {
   position: relative; }
 

@@ -3,7 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title>Renee Fowler - UX/UI Case Study: Moneta</title>
+        <!-- Portfolio Typography -->
         <link href="https://fonts.googleapis.com/css?family=Fira+Sans:600,600i,700,700i,800,800i,900,900i|Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+        <!-- Moneta Case Study Typography for Branding -->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500|Playfair+Display:900" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
         <link rel="stylesheet" type="text/css" href="styles/base.css">
     </head>
@@ -245,71 +248,49 @@
                     <div class="case-study-content-right">
                         <h5>Style Guide</h5>
                         <!-- Logo -->
-                        <div>
-                            <h6>Logo Variations</h6>
-                            <ul>
-                                <li><img src="assets/images/moneta-logo-black.png" alt="Moneta Logo for Light Backgrounds"></li>
-                                <li><img src="assets/images/moneta-logo-white.png" alt="Moneta Logo for Coloured Backgrounds"></li>
-                            </ul>
+                        <div class="style-guide-sections">
+                            <div class="branding-logo-variations">
+                                <h6>Logo Variations</h6>
+                                <ul>
+                                    <li><img src="assets/images/moneta-logo-black.png" alt="Moneta Logo for Light Backgrounds" width="83px" height="16px"></li>
+                                    <li><img src="assets/images/moneta-logo-white.png" alt="Moneta Logo for Coloured Backgrounds" width="83px" height="16px"></li>
+                                </ul>
+                            </div>
                         </div>
                         <!-- Colour Palette -->
-                        <div>
+                        <div class="style-guide-sections">
                             <!-- Primary Colour Palette -->
-                            <ul>
-                                <li>
-                                    <!-- Colour Swatch -->
-                                    <div></div>
-                                    <!-- Hexidecimal Value -->
-                                    <p>#4D7298</p>
-                                </li>
-                                <li>
-                                    <!-- Colour Swatch -->
-                                    <div></div>
-                                    <!-- Hexidecimal Value -->
-                                    <p>#42BBC5</p>
-                                </li>
-                                <li>
-                                    <!-- Colour Swatch -->
-                                    <div></div>
-                                    <!-- Hexidecimal Value -->
-                                    <p>#9AEAD4</p>
-                                </li>
-                                <li>
-                                    <!-- Colour Swatch -->
-                                    <div></div>
-                                    <!-- Hexidecimal Value -->
-                                    <p>#EDF7F4</p>
-                                </li>
-                            </ul>
+                            <div class="colour-palette moneta-primary-palette">
+                                <h6>Primary Colour Palette</h6>
+                                <ul class="colour-swatches">
+                                    <li><span class="colour-swatch moneta-dk-blue"></span>#4D7298</li>
+                                    <li><span class="colour-swatch moneta-med-blue"></span>#42BBC5</li>
+                                    <li><span class="colour-swatch moneta-med-green"></span>#9AEAD4</li>
+                                    <li><span class="colour-swatch moneta-lt-green"></span>#EDF7F4</li>
+                                </ul>
+                            </div>
                             <!-- Secondary Colour Palette -->
-                            <ul>
-                                <li>
-                                    <!-- Colour Swatch -->
-                                    <div></div>
-                                    <!-- Hexidecimal Value -->
-                                    <p>#E17BAC</p>
-                                </li>
-                                <li>
-                                    <!-- Colour Swatch -->
-                                    <div></div>
-                                    <!-- Hexidecimal Value -->
-                                    <p>#83437E</p>
-                                </li>
-                            </ul>
+                            <div class="colour-palette">
+                                <h6>Secondary Colour Palette</h6>
+                                <ul class="colour-swatches">
+                                    <li><span class="colour-swatch moneta-pink"></span>#E17BAC</li>
+                                    <li><span class="colour-swatch moneta-purple"></span>#83437E</li>
+                                </ul>
+                            </div>
                         </div>
                         <!-- Typography -->
-                        <div>
-                            <div>
-                                <h6>Typography: Headings</h6>
+                        <div class="style-guide-sections moneta-typography">
+                            <div class="moneta-headings">
+                                <h6>Headings</h6>
                                 <ul>
-                                    <li>Playfair Display Black</li>
-                                    <li>Montserrat Medium</li>
+                                    <li class="playfair-display-black-heading">Playfair Display Black</li>
+                                    <li class="montserrat-medium-heading">Montserrat Medium</li>
                                 </ul>
                             </div>
                             <div>
-                                <h6>Typography: Body Text</h6>
+                                <h6>Body Text</h6>
                                 <ul>
-                                    <li>Montserrat Light</li>
+                                    <li class="montserrat-light-body">Montserrat Light</li>
                                 </ul>
                             </div>
                         </div>
