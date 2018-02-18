@@ -158,6 +158,9 @@ button {
     font-size: 12px;
     line-height: 18px; }
 
+.user-stories-examples p {
+  font-size: 14px; }
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -392,6 +395,26 @@ section.testimonials {
 
 .survey-finding {
   width: 280px; }
+
+.ca-infographic {
+  text-align: center; }
+
+.user-stories-flow {
+  background-color: #F8FAFA; }
+
+.user-stories-flows-wrapper {
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 80px; }
+
+.user-stories {
+  width: 435px; }
+
+.user-flows {
+  width: 435px; }
+
+.user-stories-flows-example div:nth-child(2) {
+  padding-top: 15px; }
 
 .conclusion {
   position: relative; }
