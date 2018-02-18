@@ -1,4 +1,5 @@
-/* Typography */
+// General Typography Styles
+
 @font-face {
     font-family: Angelline;
     src: url(../fonts/angelline.otf), url(../fonts/angeline.ttf);
@@ -27,9 +28,10 @@ h2 {
     font-weight: 800;
     font-size: 48px;
     color: $dark-purple;
-    line-height: 70px;
+    line-height: 48px;
     text-transform: lowercase;
     margin: 0;
+    padding-bottom: 30px;
 }
 
 h3 {
@@ -67,33 +69,20 @@ h6 {
     color: $dark-purple;
     line-height: 12px;
     text-transform: uppercase;
+    margin: 0;
 }
 
 ul {
     margin: 0;
 }
 
+p {
+    margin-top: 0;
+}
+
 a {
     font-weight: 900;
     color: $dark-green;
-}
-
-.header-content-wrapper {
-    p {
-        text-transform: uppercase;
-        font-weight: 400;
-        line-height: 22px;
-    }
-}
-
-.scroll-down-wrapper {
-    p {
-        font-size: 8px;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #4A4A4A;
-        line-height: 10px;
-    }
 }
 
 .nav-links {
@@ -117,6 +106,50 @@ a {
     }
 }
 
+footer {
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    line-height: 17px;
+
+    a {
+        color: #fff;
+        font-weight: 400;
+        text-transform: lowercase;
+    }
+}
+
+button {
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+
+    a {
+        color: $black;
+    }
+}
+
+// Home Page Typography
+.header-content-wrapper {
+    p {
+        text-transform: uppercase;
+        font-weight: 400;
+        line-height: 22px;
+    }
+}
+
+.scroll-down-wrapper {
+    p {
+        font-size: 8px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #4A4A4A;
+        line-height: 10px;
+    }
+}
+
 .process-tile {
     text-align: center;
     color: #fff;
@@ -132,6 +165,7 @@ a {
     blockquote {
         font-weight: 400;
         font-style: italic;
+        line-height: 28px;
         color: #fff;
 
         span {
@@ -161,27 +195,24 @@ a {
     }
 }
 
-footer {
-    font-weight: 300;
-    font-size: 14px;
-    color: #fff;
-    line-height: 17px;
-
-    a {
-        color: #fff;
-        font-weight: 400;
-        text-transform: lowercase;
+// Case Study Typography
+.chart-labels {
+    li {
+        font-weight: 300;
+        font-size: 12px;
+        padding: 0 20px 5px 0;
     }
 }
 
-button {
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 12px;
-    text-transform: uppercase;
-    text-align: center;
+.survey-finding-wrapper {
+    ul {
+        list-style-type: circle;
+        padding-left: 25px;
 
-    a {
-        color: $black;
+        li {
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 18px;
+        }
     }
 }

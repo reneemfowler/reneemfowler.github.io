@@ -1,3 +1,4 @@
+// General Stylings
 .case-study-centered {
     text-align: center;
     background-color: $ltest-green;
@@ -19,8 +20,72 @@
 
 .case-study-content-right {
     flex: 0 1 60%;
+    padding-left: 80px;
 }
 
+// Survey Section
+.survey {
+    background-color: #F2F5F5;
+}
+
+.survey-pie-charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.survey-pie-chart {
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        padding: 20px 0;
+    }
+}
+
+.chart-labels {
+    display: flex;
+    flex-wrap: wrap;
+
+    .dark-purple {
+        background-color: $dark-purple;
+    }
+
+    .med-pink {
+        background-color: $med-pink;
+    }
+
+    .med-green {
+        background-color: $med-green;
+    }
+
+    .dark-green {
+        background-color: $dark-green;
+    }
+}
+
+.chart-label-color {
+    width: 15px;
+    height: 15px;
+    background-color: $med-purple;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.survey-finding-wrapper {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.survey-finding {
+    width: 280px;
+}
+
+// Conclusion
 .conclusion {
     position: relative;
 }
