@@ -34,7 +34,15 @@
 .case-study-intro-container {
     width: $site-width;
     margin: 0 auto;
-    min-height: 80vh;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cs-summary-details-container {
+    width: $site-width;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,6 +53,14 @@
     flex-direction: column;
 }
 
+.cs-summary-details-wrapper {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    width: 100%;
+}
+
 .case-study-summary {
     display: flex;
     justify-content: space-between;
@@ -53,13 +69,6 @@
 .cs-summary-content {
     flex: 0 1 40%;
     align-self: flex-end;
-}
-
-.case-study-summary-details {
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 100px;
 }
 
 .cs-summary-detail-section {
