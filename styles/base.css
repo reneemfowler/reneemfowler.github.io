@@ -342,7 +342,8 @@ section.testimonials {
     border-radius: 50%;
     align-self: center; }
   .testimonial-client p {
-    padding-top: 20px; }
+    padding-top: 20px;
+    margin-bottom: 0; }
   .testimonial-client p:last-child {
     padding-top: 0; }
 
