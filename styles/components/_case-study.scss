@@ -162,6 +162,10 @@
 }
 
 // Branding & Identity Section
+.brand-identity-container {
+    padding: 30px 0;
+}
+
 .style-guide-sections {
     padding-top: 40px;
     display: flex;
@@ -176,7 +180,6 @@
         line-height: 15px;
     }
 }
-
 
 .branding-logo-variations {
     ul {
@@ -276,6 +279,10 @@
 // Testing Section
 .testing-bg {
     background-color: #F8FAFA;
+}
+
+.testing-container {
+    padding: 50px 0;
 }
 
 .test-plan {
