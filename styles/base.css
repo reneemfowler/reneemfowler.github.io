@@ -354,8 +354,43 @@ section.testimonials {
 .graphic-content-right {
   text-align: center; }
 
+.moneta-case-study-bg {
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #4D7298 100%); }
+
+.case-study-intro-container {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.case-study-intro-wrapper {
+  display: flex;
+  flex-direction: column; }
+
+.case-study-summary {
+  display: flex;
+  justify-content: space-between; }
+
+.cs-summary-content {
+  flex: 0 1 40%;
+  align-self: flex-end; }
+
+.case-study-summary-details {
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 100px; }
+
+.cs-summary-detail-section {
+  flex: 0 1 30%; }
+
+.end-product {
+  flex: 0 1 20%; }
+
 .survey {
-  background-color: #F2F5F5; }
+  background-color: #F8FAFA; }
 
 .survey-pie-charts {
   display: flex;

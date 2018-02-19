@@ -26,9 +26,53 @@
     text-align: center;
 }
 
+// Case Study Intro
+.moneta-case-study-bg {
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #4D7298 100%);
+}
+
+.case-study-intro-container {
+    width: $site-width;
+    margin: 0 auto;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-study-intro-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.case-study-summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cs-summary-content {
+    flex: 0 1 40%;
+    align-self: flex-end;
+}
+
+.case-study-summary-details {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.cs-summary-detail-section {
+    flex: 0 1 30%;
+}
+
+.end-product {
+    flex: 0 1 20%;
+}
+
 // Survey Section
 .survey {
-    background-color: #F2F5F5;
+    background-color: #F8FAFA;
 }
 
 .survey-pie-charts {
@@ -89,7 +133,7 @@
 }
 
 
-// User Stories & User Flows
+// User Stories & User Flows Section
 .user-stories-flows {
     background-color: #F8FAFA;
 }
@@ -108,7 +152,7 @@
     }
 }
 
-// Branding & Identity
+// Branding & Identity Section
 .style-guide-sections {
     padding-top: 40px;
     display: flex;
@@ -220,7 +264,7 @@
     padding-right: 110px;
 }
 
-// Testing
+// Testing Section
 .testing-bg {
     background-color: #F8FAFA;
 }
