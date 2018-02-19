@@ -1,5 +1,20 @@
-section.about-me {
-    background: rgba(190, 226, 226, 0.30) linear-gradient(0deg, rgba(255,255,255,0.35) 0%, rgba(136,202,201,0.41) 23%, rgba(111,134,147,0.53) 48%, rgba(118,92,128,0.62) 73%, #583765 100%);
+.about-me {
+    position: relative;
+}
+
+.about-me-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.45;
+    background: #BEE2E2;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.35) 0%, rgba(136,202,201,0.41) 23%, rgba(111,134,147,0.53) 48%, rgba(118,92,128,0.62) 73%, #583765 100%);
+}
+
+.about-me-content {
+    position: relative;
+    z-index: 2;
 }
 
 .about-wrapper {
