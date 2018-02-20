@@ -413,9 +413,6 @@ section.testimonials {
 .graphic-content-right {
   text-align: center; }
 
-.moneta-case-study-bg {
-  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #4D7298 100%); }
-
 .case-study-intro-container {
   width: 1200px;
   margin: 0 auto;
@@ -444,7 +441,7 @@ section.testimonials {
 
 .case-study-summary {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .cs-summary-content {
   flex: 0 1 40%;
@@ -527,11 +524,7 @@ section.testimonials {
 
 .branding-logo-variations ul {
   display: flex; }
-  .branding-logo-variations ul li:last-child {
-    background-color: #42BBC5; }
 .branding-logo-variations li {
-  width: 130px;
-  height: 130px;
   border-radius: 10px;
   background-color: #fff;
   border: 1px solid #F1F1F1;
@@ -540,9 +533,6 @@ section.testimonials {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-.moneta-primary-palette {
-  padding-right: 60px; }
 
 .colour-swatches {
   display: flex; }
@@ -562,6 +552,14 @@ section.testimonials {
     background-color: #E17BAC; }
   .colour-swatches .moneta-purple {
     background-color: #83437E; }
+  .colour-swatches .blocbox-dk-blue {
+    background-color: #161A5B; }
+  .colour-swatches .blocbox-med-violet {
+    background-color: #3A3FA7; }
+  .colour-swatches .blocbox-lt-violet {
+    background-color: #6D73F4; }
+  .colour-swatches .blocbox-gold {
+    background-color: #F4D03F; }
 
 .colour-swatch {
   width: 55px;
@@ -569,22 +567,6 @@ section.testimonials {
   background-color: #111111;
   border-radius: 50%;
   margin-bottom: 10px; }
-
-.moneta-typography ul {
-  font-size: 24px;
-  line-height: 32px; }
-.moneta-typography .playfair-display-black-heading {
-  font-family: 'Playfair Display', serif;
-  font-weight: 900; }
-.moneta-typography .montserrat-medium-heading {
-  font-family: 'Montserrat', serif;
-  font-weight: 500; }
-.moneta-typography .montserrat-light-body {
-  font-family: 'Montserrat', serif;
-  font-weight: 300; }
-
-.moneta-headings {
-  padding-right: 110px; }
 
 .testing-bg {
   background-color: #F8FAFA; }
@@ -595,7 +577,7 @@ section.testimonials {
 .test-plan {
   font-size: 14px; }
 
-.test-plan-section {
+.testing-section {
   padding-top: 15px; }
 
 .conclusion {
@@ -613,6 +595,66 @@ section.testimonials {
 .conclusion-content {
   position: relative;
   z-index: 2; }
+
+.moneta-case-study-bg {
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #4D7298 100%); }
+
+.moneta-logos ul li:last-child {
+  background-color: #42BBC5; }
+.moneta-logos li {
+  width: 130px;
+  height: 130px; }
+
+.moneta-primary-palette {
+  padding-right: 60px; }
+
+.moneta-typography ul {
+  font-size: 24px;
+  line-height: 32px; }
+.moneta-typography .playfair-display-black-heading {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900; }
+.moneta-typography .montserrat-medium-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500; }
+.moneta-typography .montserrat-light-body {
+  font-family: 'Montserrat', sasn-serif;
+  font-weight: 300; }
+
+.moneta-headings {
+  padding-right: 110px; }
+
+.blocbox-case-study-bg {
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #161A5B 100%); }
+
+.blocbox-survey-finding {
+  width: 100%; }
+
+.blocbox-logos ul li:last-child {
+  background-color: #000; }
+.blocbox-logos li {
+  width: 205px;
+  height: 130px; }
+
+.blocbox-typography {
+  display: flex;
+  justify-content: space-between; }
+  .blocbox-typography ul {
+    font-size: 24px;
+    line-height: 32px; }
+  .blocbox-typography .roboto-slab-regular-heading {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400; }
+  .blocbox-typography .open-sans-regular-body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400; }
+
+.cs-blocbox-preference-sample {
+  display: flex;
+  padding-bottom: 20px; }
+  .cs-blocbox-preference-sample img,
+  .cs-blocbox-preference-sample p {
+    padding-right: 40px; }
 
 footer {
   display: flex;

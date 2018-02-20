@@ -1,4 +1,3 @@
-// General or Shared Stylings
 .case-study-centered {
     text-align: center;
     background-color: $ltest-green;
@@ -32,10 +31,6 @@
 }
 
 // Case Study Intro
-.moneta-case-study-bg {
-    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #4D7298 100%);
-}
-
 .case-study-intro-container {
     width: $site-width;
     margin: 0 auto;
@@ -68,7 +63,7 @@
 
 .case-study-summary {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .cs-summary-content {
@@ -189,15 +184,9 @@
 .branding-logo-variations {
     ul {
         display: flex;
-
-        li:last-child {
-            background-color: #42BBC5;
-        }
     }
 
     li {
-        width: 130px;
-        height: 130px;
         border-radius: 10px;
         background-color: #fff;
         border: 1px solid #F1F1F1;
@@ -207,10 +196,6 @@
         justify-content: center;
         align-items: center;
     }
-}
-
-.moneta-primary-palette {
-    padding-right: 60px;
 }
 
 .colour-swatches {
@@ -245,6 +230,22 @@
     .moneta-purple {
         background-color: #83437E;
     }
+
+    .blocbox-dk-blue {
+        background-color: #161A5B;
+    }
+
+    .blocbox-med-violet {
+        background-color: #3A3FA7;
+    }
+
+    .blocbox-lt-violet {
+        background-color: #6D73F4;
+    }
+
+    .blocbox-gold {
+        background-color: #F4D03F;
+    }
 }
 
 .colour-swatch {
@@ -253,32 +254,6 @@
     background-color: #111111;
     border-radius: 50%;
     margin-bottom: 10px;
-}
-
-.moneta-typography {
-    ul {
-        font-size: 24px;
-        line-height: 32px;
-    }
-
-    .playfair-display-black-heading {
-        font-family: 'Playfair Display', serif;
-        font-weight: 900;
-    }
-
-    .montserrat-medium-heading {
-        font-family: 'Montserrat', serif;
-        font-weight: 500;
-    }
-
-    .montserrat-light-body {
-        font-family: 'Montserrat', serif;
-        font-weight: 300;
-    }
-}
-
-.moneta-headings {
-    padding-right: 110px;
 }
 
 // Testing Section
@@ -294,7 +269,7 @@
     font-size: 14px;
 }
 
-.test-plan-section {
+.testing-section {
     padding-top: 15px;
 }
 
@@ -316,4 +291,105 @@
 .conclusion-content {
     position: relative;
     z-index: 2;
+}
+
+// Moneta Case Study Specific
+.moneta-case-study-bg {
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #4D7298 100%);
+}
+
+.moneta-logos {
+    ul {
+        li:last-child {
+            background-color: #42BBC5;
+        }
+    }
+
+    li {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+.moneta-primary-palette {
+    padding-right: 60px;
+}
+
+.moneta-typography {
+    ul {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .playfair-display-black-heading {
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+
+    .montserrat-medium-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+
+    .montserrat-light-body {
+        font-family: 'Montserrat', sasn-serif;
+        font-weight: 300;
+    }
+}
+
+.moneta-headings {
+    padding-right: 110px;
+}
+
+// Blocbox Case Study Specific
+.blocbox-case-study-bg {
+    //opacity: 0.80;
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #161A5B 100%);
+}
+
+.blocbox-survey-finding {
+    width: 100%;
+}
+
+.blocbox-logos {
+    ul {
+        li:last-child {
+            background-color: #000;
+        }
+    }
+
+    li {
+        width: 205px;
+        height: 130px;
+    }
+}
+
+.blocbox-typography {
+    display: flex;
+    justify-content: space-between;
+
+    ul {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .roboto-slab-regular-heading {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+    }
+
+    .open-sans-regular-body {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+}
+
+.cs-blocbox-preference-sample {
+    display: flex;
+    padding-bottom: 20px;
+
+    img,
+    p {
+        padding-right: 40px;
+    }
 }
