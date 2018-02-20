@@ -7,6 +7,8 @@
         <link href="https://fonts.googleapis.com/css?family=Fira+Sans:600,600i,700,700i,800,800i,900,900i|Lato:300,300i,400,400i,700,700i" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
         <link rel="stylesheet" type="text/css" href="styles/base.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     </head>
 
     <body>
@@ -140,15 +142,41 @@
         <section class="testimonials">
             <div class="container">
                 <div class="testimonial-wrapper">
-                    <div class="testimonial-quote">
-                        <img src="assets/icons/quote-left.png" alt="Left Quotation" width="26.5px" height="21.25px">
-                        <blockquote>When you work with Renee she will offer a wide variety of options for addressing design challenges. She will walk you through those options and can clearly state the pros and cons of each, which has helped our team weigh our decisions.  Renee also has deep experience working with developers whom she collaborates with on ideas frequently.  She is charming, thoughtful and a pleasure to work with; a killer member of any design team!</blockquote>
-                        <img src="assets/icons/quote-right.png" alt="Right Quotation" width="26.5px" height="21.25px">
+                    <div class="testimonial">
+                        <div class="testimonial-quote">
+                            <img src="assets/icons/quote-left.png" alt="Left Quotation" width="26.5px" height="21.25px">
+                            <blockquote>When you work with Renee she will offer a wide variety of options for addressing design challenges. She will walk you through those options and can clearly state the pros and cons of each, which has helped our team weigh our decisions.  Renee also has deep experience working with developers whom she collaborates with on ideas frequently.  She is charming, thoughtful and a pleasure to work with; a killer member of any design team!</blockquote>
+                            <img src="assets/icons/quote-right.png" alt="Right Quotation" width="26.5px" height="21.25px">
+                        </div>
+                        <div class="testimonial-client">
+                            <img src="http://via.placeholder.com/60x60" alt="Photo of Tim Ferman from Project6" width="60px" height="60px">
+                            <p>Tim Ferman</p>
+                            <p>Project6 Design</p>
+                        </div>
                     </div>
-                    <div class="testimonial-client">
-                        <img src="assets/images/tim.jpg" alt="Photo of Tim Ferman from Project6" width="60px" height="60px">
-                        <p>Tim Ferman</p>
-                        <p>Project6 Design</p>
+                    <div class="testimonial">
+                        <div class="testimonial-quote">
+                            <img src="assets/icons/quote-left.png" alt="Left Quotation" width="26.5px" height="21.25px">
+                            <blockquote>Renee is hands down one of the best UX/UI Designers I have worked with. She doesn’t just make designs look great, she will make sure that design elements are strategically placed to give the user the best experience possible. She will always listen to any concern or thought you have and will them all into consideration when designing your website or rebranding your company. Renee will put both thought and feeling into the work that she will produce for you. Passion is what separates her designs from any other designer out there!</blockquote>
+                            <img src="assets/icons/quote-right.png" alt="Right Quotation" width="26.5px" height="21.25px">
+                        </div>
+                        <div class="testimonial-client">
+                            <img src="http://via.placeholder.com/60x60" alt="Photo of Ryan Aker from RCA Web Design" width="60px" height="60px">
+                            <p>Ryan Aker</p>
+                            <p>RCA Web Design</p>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="testimonial-quote">
+                            <img src="assets/icons/quote-left.png" alt="Left Quotation" width="26.5px" height="21.25px">
+                            <blockquote>When you work with Renee she will offer a wide variety of options for addressing design challenges. She will walk you through those options and can clearly state the pros and cons of each, which has helped our team weigh our decisions.  Renee also has deep experience working with developers whom she collaborates with on ideas frequently.  She is charming, thoughtful and a pleasure to work with; a killer member of any design team!</blockquote>
+                            <img src="assets/icons/quote-right.png" alt="Right Quotation" width="26.5px" height="21.25px">
+                        </div>
+                        <div class="testimonial-client">
+                            <img src="http://via.placeholder.com/60x60" alt="Photo of Mike Dekker from Bloc" width="60px" height="60px">
+                            <p>Mike Dekker</p>
+                            <p>Bloc</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -201,7 +229,15 @@
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
 
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.testimonial-wrapper').slick({
+                    dots: true
+                });
+            });
+        </script>
     </body>
 
 </html>

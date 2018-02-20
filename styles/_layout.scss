@@ -52,3 +52,11 @@ button {
     background: none;
     z-index: 1;
 }
+
+button.slick-prev {
+    left: -150px;
+}
+
+button.slick-next {
+    right: -150px;
+}
