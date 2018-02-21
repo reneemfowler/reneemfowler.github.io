@@ -11,7 +11,7 @@ body {
     font-size: 18px;
     font-weight: $lato-light;
     color: $black;
-    line-height: 24px;
+    line-height: 1.5;
 }
 
 h1 {
@@ -20,7 +20,8 @@ h1 {
     font-size: 5.0em;  /* 90px */
     text-align: center;
     color: $med-green;
-    margin-bottom: 45px;
+    margin-bottom: 5px;
+    line-height: 1.2;
 }
 
 h2 {
@@ -28,7 +29,7 @@ h2 {
     font-weight: $fira-sans-extra-bold;
     font-size: 2.667em; /* 48px */
     color: $dark-purple;
-    line-height: 48px;
+    line-height: 1.0; /* 48px */
     text-transform: lowercase;
     margin: 0;
     padding-bottom: 30px;
@@ -38,7 +39,7 @@ h3 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: $fira-sans-extra-bold;
     font-size: 2.0em; /* 36px */
-    line-height: 53px;
+    line-height: 1.5;
     text-transform: lowercase;
     margin: 0;
     padding-bottom: 15px;
@@ -48,7 +49,7 @@ h4 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: $fira-sans-semi-bold;
     font-size: 1.111em; /* 20px */
-    line-height: 29px;
+    line-height: 1.45;
     text-transform: uppercase;
     margin: 0;
 }
@@ -58,7 +59,7 @@ h5 {
     font-weight: $fira-sans-semi-bold;
     font-size: 0.667em; /* 12px */
     color: $dark-purple;
-    line-height: 17px;
+    line-height: 1.4;
     text-transform: uppercase;
     margin: 0;
 }
@@ -67,7 +68,7 @@ h6 {
     font-weight: 700;
     font-size: 0.556em; /* 10px */
     color: $dark-purple;
-    line-height: 12px;
+    line-height: 1.2;
     text-transform: uppercase;
     margin: 0;
 }
@@ -89,7 +90,7 @@ a {
     ul {
         font-weight: $lato-regular;
         font-size: 0.611em; /* 11px */
-        line-height: 15px;
+        line-height: 1.35;
         text-transform: uppercase;
     }
 
@@ -121,7 +122,7 @@ footer {
     font-weight: $lato-light;
     font-size: 0.778em; /* 14px */
     color: #fff;
-    line-height: 17px;
+    line-height: 1.2;
 
     a {
         color: #fff;
@@ -131,8 +132,8 @@ footer {
 }
 
 button {
-    font-size: 0.667em; /* 12px */
-    line-height: 12px;
+    font-size: 0.556em; /* 10px */
+    line-height: 1.0;
     text-transform: uppercase;
     text-align: center;
 
@@ -147,7 +148,7 @@ button {
     p {
         text-transform: uppercase;
         font-weight: $lato-regular;
-        line-height: 22px;
+        line-height: 1.2;
     }
 }
 
@@ -157,7 +158,7 @@ button {
         font-weight: $lato-bold;
         text-transform: uppercase;
         color: #4A4A4A;
-        line-height: 10px;
+        line-height: 1.2;
     }
 }
 
@@ -168,7 +169,7 @@ button {
     ul {
         font-weight: $lato-regular;
         font-size: 0.667em; /* 12px */
-        line-height: 19px;
+        line-height: 1.6;
     }
 }
 
@@ -176,7 +177,7 @@ button {
     blockquote {
         font-weight: $lato-regular;
         font-style: italic;
-        line-height: 28px;
+        line-height: 1.55;
         color: #fff;
 
         span {
@@ -193,7 +194,7 @@ button {
         font-family: 'Fira Sans', sans-serif;
         font-weight: $fira-sans-semi-bold;
         font-size: 0.778em; /* 14px */
-        line-height: 20px;
+        line-height: 1.4;
         color: #fff;
         text-transform: uppercase;
     }
@@ -223,7 +224,7 @@ button {
         li {
             font-weight: $lato-light;
             font-size: 0.667em; /* 12px */;
-            line-height: 18px;
+            line-height: 1.5;
         }
     }
 }

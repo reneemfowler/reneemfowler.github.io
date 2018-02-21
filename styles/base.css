@@ -7,22 +7,26 @@ body {
   font-size: 18px;
   font-weight: 300;
   color: #2B2B2C;
-  line-height: 24px; }
+  line-height: 1.5; }
 
 h1 {
   font-family: 'Angelline', script;
   text-transform: lowercase;
-  font-size: 90px;
+  font-size: 5.0em;
+  /* 90px */
   text-align: center;
   color: #88CAC9;
-  margin-bottom: 45px; }
+  margin-bottom: 5px;
+  line-height: 1.2; }
 
 h2 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 800;
-  font-size: 48px;
+  font-size: 2.667em;
+  /* 48px */
   color: #342839;
-  line-height: 48px;
+  line-height: 1.0;
+  /* 48px */
   text-transform: lowercase;
   margin: 0;
   padding-bottom: 30px; }
@@ -30,8 +34,9 @@ h2 {
 h3 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 800;
-  font-size: 36px;
-  line-height: 53px;
+  font-size: 2.0em;
+  /* 36px */
+  line-height: 1.5;
   text-transform: lowercase;
   margin: 0;
   padding-bottom: 15px; }
@@ -39,25 +44,28 @@ h3 {
 h4 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
-  font-size: 20px;
-  line-height: 29px;
+  font-size: 1.111em;
+  /* 20px */
+  line-height: 1.45;
   text-transform: uppercase;
   margin: 0; }
 
 h5 {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 0.667em;
+  /* 12px */
   color: #342839;
-  line-height: 17px;
+  line-height: 1.4;
   text-transform: uppercase;
   margin: 0; }
 
 h6 {
   font-weight: 700;
-  font-size: 10px;
+  font-size: 0.556em;
+  /* 10px */
   color: #342839;
-  line-height: 12px;
+  line-height: 1.2;
   text-transform: uppercase;
   margin: 0; }
 
@@ -73,8 +81,9 @@ a {
 
 .nav-links ul {
   font-weight: 400;
-  font-size: 11px;
-  line-height: 15px;
+  font-size: 0.611em;
+  /* 11px */
+  line-height: 1.35;
   text-transform: uppercase; }
 .nav-links a {
   font-weight: 400;
@@ -92,17 +101,19 @@ a {
 
 footer {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.778em;
+  /* 14px */
   color: #fff;
-  line-height: 17px; }
+  line-height: 1.2; }
   footer a {
     color: #fff;
     font-weight: 400;
     text-transform: lowercase; }
 
 button {
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 0.556em;
+  /* 10px */
+  line-height: 1.0;
   text-transform: uppercase;
   text-align: center; }
   button a {
@@ -112,49 +123,55 @@ button {
 .header-content-wrapper p {
   text-transform: uppercase;
   font-weight: 400;
-  line-height: 22px; }
+  line-height: 1.2; }
 
 .scroll-down-wrapper p {
-  font-size: 8px;
+  font-size: 0.444em;
+  /* 8px */
   font-weight: 700;
   text-transform: uppercase;
   color: #4A4A4A;
-  line-height: 10px; }
+  line-height: 1.2; }
 
 .process-tile {
   text-align: center;
   color: #fff; }
   .process-tile ul {
     font-weight: 400;
-    font-size: 12px;
-    line-height: 19px; }
+    font-size: 0.667em;
+    /* 12px */
+    line-height: 1.6; }
 
 .testimonials blockquote {
   font-weight: 400;
   font-style: italic;
-  line-height: 28px;
+  line-height: 1.55;
   color: #fff; }
   .testimonials blockquote span {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 76px;
+    font-size: 4.222em;
+    /* 76px */
     color: #BEE2E2; }
 
 .testimonial-client p {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 600;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.778em;
+  /* 14px */
+  line-height: 1.4;
   color: #fff;
   text-transform: uppercase; }
 .testimonial-client p:last-child {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 0.667em;
+  /* 12px */
   color: #BEE2E2; }
 
 .chart-labels li {
   font-weight: 300;
-  font-size: 12px;
+  font-size: 0.667em;
+  /* 12px */
   padding: 0 20px 5px 0; }
 
 .survey-finding-wrapper ul {
@@ -162,11 +179,13 @@ button {
   padding-left: 25px; }
   .survey-finding-wrapper ul li {
     font-weight: 300;
-    font-size: 12px;
-    line-height: 18px; }
+    font-size: 0.667em;
+    /* 12px */
+    line-height: 1.5; }
 
 .user-stories-flows-example p {
-  font-size: 14px; }
+  font-size: 0.778em;
+  /* 14px */ }
 
 .container {
   width: 1200px;
@@ -189,10 +208,9 @@ ul {
 
 a {
   text-decoration: none; }
-
-a:hover {
-  color: #88CAC9;
-  text-decoration: underline; }
+  a:hover {
+    color: #88CAC9;
+    text-decoration: underline; }
 
 .button-wrapper {
   position: relative;
@@ -270,6 +288,10 @@ nav {
 .title-location-wrapper {
   display: flex;
   justify-content: space-evenly; }
+  .title-location-wrapper p:first-child {
+    padding-right: 20px; }
+  .title-location-wrapper p:nth-child(2) {
+    padding-right: 5px; }
 
 .scroll-down-wrapper {
   margin: 0 auto;
@@ -462,35 +484,6 @@ section.testimonials {
   padding: 80px 0;
   text-align: center; }
 
-.contact-me-form {
-  margin-top: 60px; }
-  .contact-me-form form {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .contact-me-form input::placeholder,
-  .contact-me-form textarea::placeholder {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 16px; }
-  .contact-me-form input,
-  .contact-me-form textarea {
-    width: 100%;
-    padding: 8px 15px;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 3px solid #4A4A4A;
-    margin-bottom: 40px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 16px; }
-  .contact-me-form textarea {
-    height: 40px; }
-  .contact-me-form input:focus,
-  .contact-me-form textarea:focus {
-    outline: none;
-    border-bottom: 3px solid #D8C3CA; }
-
 .case-study-centered {
   text-align: center;
   background-color: #D8EEEE; }
@@ -535,7 +528,8 @@ section.testimonials {
   flex-direction: column; }
 
 .cs-summary-details-wrapper {
-  font-size: 14px;
+  font-size: 0.778em;
+  /* 14px */
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
@@ -622,9 +616,10 @@ section.testimonials {
   .style-guide-sections h6 {
     padding-bottom: 15px; }
   .style-guide-sections ul {
-    font-size: 12px;
+    font-size: 0.667em;
+    /* 12px */
     font-weight: 400;
-    line-height: 15px; }
+    line-height: 1.25; }
 
 .branding-logo-variations ul {
   display: flex; }
@@ -679,7 +674,8 @@ section.testimonials {
   padding: 50px 0; }
 
 .test-plan {
-  font-size: 14px; }
+  font-size: 0.778em;
+  /* 14px */ }
 
 .testing-section {
   padding-top: 15px; }
@@ -713,8 +709,9 @@ section.testimonials {
   padding-right: 60px; }
 
 .moneta-typography ul {
-  font-size: 24px;
-  line-height: 32px; }
+  font-size: 1.333em;
+  /* 24px */
+  line-height: 1.333; }
 .moneta-typography .playfair-display-black-heading {
   font-family: 'Playfair Display', serif;
   font-weight: 900; }
@@ -744,8 +741,9 @@ section.testimonials {
   display: flex;
   justify-content: space-between; }
   .blocbox-typography ul {
-    font-size: 24px;
-    line-height: 32px; }
+    font-size: 1.333em;
+    /* 24px */
+    line-height: 1.333; }
   .blocbox-typography .roboto-slab-regular-heading {
     font-family: 'Roboto Slab', serif;
     font-weight: 400; }
