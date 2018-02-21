@@ -278,6 +278,78 @@ nav {
     border-radius: 50%;
     margin-bottom: 20px; }
 
+.design-projects-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+
+.design-project-intro {
+  flex: 0 1 30%; }
+
+.design-project-tiles {
+  flex: 0 1 50%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: -100px;
+  top: -100px; }
+
+.project-tile {
+  width: 250px;
+  height: 250px;
+  transform: rotate(45deg);
+  box-shadow: 5px 5px 10px rgba(114, 114, 114, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  overflow: hidden; }
+  .project-tile img {
+    transform: rotate(-45deg); }
+
+.project-1 {
+  top: 140px;
+  left: -190px; }
+  .project-1 .project-1-bg {
+    background-image: url("../../assets/images/jam-cafe.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 145%;
+    height: 145%;
+    transform: rotate(-45deg); }
+  .project-1 .project-1-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 145%;
+    height: 145%; }
+
+.project-2 .project-2-bg {
+  background-image: url("../../assets/images/newlyweds.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 145%;
+  height: 145%;
+  transform: rotate(-45deg); }
+.project-2 .project-2-overlay {
+  background-color: rgba(77, 114, 152, 0.6);
+  position: absolute;
+  width: 145%;
+  height: 145%; }
+
+.project-3 {
+  top: 140px;
+  right: 160px; }
+  .project-3 .project-3-bg {
+    background-image: url("../../assets/images/blocbox-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 145%;
+    height: 145%;
+    transform: rotate(-45deg); }
+
 .design-process-wrapper {
   padding-bottom: 60px; }
 
