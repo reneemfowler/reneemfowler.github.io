@@ -54,7 +54,7 @@
 }
 
 .cs-summary-details-wrapper {
-    font-size: 14px;
+    font-size: 0.778em; /* 14px */
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
@@ -179,7 +179,7 @@
     }
 
     ul {
-        font-size: 12px;
+        font-size: 0.667em; /* 12px */
         font-weight: 400;
         line-height: 15px;
     }
@@ -270,7 +270,7 @@
 }
 
 .test-plan {
-    font-size: 14px;
+    font-size: 0.778em; /* 14px */
 }
 
 .testing-section {
@@ -321,7 +321,7 @@
 
 .moneta-typography {
     ul {
-        font-size: 24px;
+        font-size: 1.333em; /* 24px */
         line-height: 32px;
     }
 
@@ -372,7 +372,7 @@
     justify-content: space-between;
 
     ul {
-        font-size: 24px;
+        font-size: 1.333em; /* 24px */
         line-height: 32px;
     }
 

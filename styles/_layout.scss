@@ -22,11 +22,11 @@ ul {
 
 a {
     text-decoration: none;
-}
 
-a:hover {
-    color: $med-green;
-    text-decoration: underline;
+    &:hover {
+        color: $med-green;
+        text-decoration: underline;
+    }
 }
 
 .button-wrapper {

@@ -17,7 +17,7 @@ body {
 h1 {
     font-family: 'Angelline', script;
     text-transform: lowercase;
-    font-size: 90px;
+    font-size: 5.0em;  /* 90px */
     text-align: center;
     color: $med-green;
     margin-bottom: 45px;
@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: $fira-sans-extra-bold;
-    font-size: 48px;
+    font-size: 2.667em; /* 48px */
     color: $dark-purple;
     line-height: 48px;
     text-transform: lowercase;
@@ -37,7 +37,7 @@ h2 {
 h3 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: $fira-sans-extra-bold;
-    font-size: 36px;
+    font-size: 2.0em; /* 36px */
     line-height: 53px;
     text-transform: lowercase;
     margin: 0;
@@ -47,7 +47,7 @@ h3 {
 h4 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: $fira-sans-semi-bold;
-    font-size: 20px;
+    font-size: 1.111em; /* 20px */
     line-height: 29px;
     text-transform: uppercase;
     margin: 0;
@@ -56,7 +56,7 @@ h4 {
 h5 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: $fira-sans-semi-bold;
-    font-size: 12px;
+    font-size: 0.667em; /* 12px */
     color: $dark-purple;
     line-height: 17px;
     text-transform: uppercase;
@@ -65,7 +65,7 @@ h5 {
 
 h6 {
     font-weight: 700;
-    font-size: 10px;
+    font-size: 0.556em; /* 10px */
     color: $dark-purple;
     line-height: 12px;
     text-transform: uppercase;
@@ -88,7 +88,7 @@ a {
 .nav-links {
     ul {
         font-weight: $lato-regular;
-        font-size: 11px;
+        font-size: 0.611em; /* 11px */
         line-height: 15px;
         text-transform: uppercase;
     }
@@ -119,7 +119,7 @@ a {
 
 footer {
     font-weight: $lato-light;
-    font-size: 14px;
+    font-size: 0.778em; /* 14px */
     color: #fff;
     line-height: 17px;
 
@@ -131,7 +131,7 @@ footer {
 }
 
 button {
-    font-size: 10px;
+    font-size: 0.667em; /* 12px */
     line-height: 12px;
     text-transform: uppercase;
     text-align: center;
@@ -153,7 +153,7 @@ button {
 
 .scroll-down-wrapper {
     p {
-        font-size: 8px;
+        font-size: 0.444em; /* 8px */
         font-weight: $lato-bold;
         text-transform: uppercase;
         color: #4A4A4A;
@@ -167,7 +167,7 @@ button {
 
     ul {
         font-weight: $lato-regular;
-        font-size: 12px;
+        font-size: 0.667em; /* 12px */
         line-height: 19px;
     }
 }
@@ -181,7 +181,7 @@ button {
 
         span {
             font-family: 'Fira Sans', sans-serif;
-            font-size: 76px;
+            font-size: 4.222em; /* 76px */
             color: $lt-green;
         }
 
@@ -192,7 +192,7 @@ button {
     p {
         font-family: 'Fira Sans', sans-serif;
         font-weight: $fira-sans-semi-bold;
-        font-size: 14px;
+        font-size: 0.778em; /* 14px */
         line-height: 20px;
         color: #fff;
         text-transform: uppercase;
@@ -201,7 +201,7 @@ button {
     p:last-child {
         font-family: 'Lato', sans-serif;
         font-weight: $lato-regular;
-        font-size: 12px;
+        font-size: 0.667em; /* 12px */
         color: $lt-green;
     }
 }
@@ -210,7 +210,7 @@ button {
 .chart-labels {
     li {
         font-weight: $lato-light;
-        font-size: 12px;
+        font-size: 0.667em; /* 12px */;
         padding: 0 20px 5px 0;
     }
 }
@@ -222,7 +222,7 @@ button {
 
         li {
             font-weight: $lato-light;
-            font-size: 12px;
+            font-size: 0.667em; /* 12px */;
             line-height: 18px;
         }
     }
@@ -230,6 +230,6 @@ button {
 
 .user-stories-flows-example {
     p {
-        font-size: 14px;
+        font-size: 0.778em; /* 14px */
     }
 }
