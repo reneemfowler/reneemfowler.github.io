@@ -81,7 +81,7 @@
 
 // Survey Section
 .survey {
-    background-color: #F8FAFA;
+    background-color: $lt-grey-bg;
 }
 
 .survey-pie-charts {
@@ -105,6 +105,10 @@
     display: flex;
     flex-wrap: wrap;
 
+    .med-purple {
+        background-color: $med-purple;
+    }
+
     .dark-purple {
         background-color: $dark-purple;
     }
@@ -125,7 +129,7 @@
 .chart-label-color {
     width: 15px;
     height: 15px;
-    background-color: $med-purple;
+    background-color: $black;
     border-radius: 50%;
     display: inline-block;
     margin-right: 10px;
@@ -144,7 +148,7 @@
 
 // User Stories & User Flows Section
 .user-stories-flows {
-    background-color: #F8FAFA;
+    background-color: $lt-grey-bg;
 }
 
 .user-stories {
@@ -208,43 +212,43 @@
     }
 
     .moneta-dk-blue {
-        background-color: #4D7298;
+        background-color: $moneta-dk-blue;
     }
 
     .moneta-med-blue {
-        background-color: #42BBC5;
+        background-color: $moneta-med-blue;
     }
 
     .moneta-med-green {
-        background-color: #9AEAD4;
+        background-color: $moneta-med-green;
     }
 
     .moneta-lt-green {
-        background-color: #EDF7F4
+        background-color: $moneta-lt-green;
     }
 
     .moneta-pink {
-        background-color: #E17BAC;
+        background-color: $moneta-pink;
     }
 
     .moneta-purple {
-        background-color: #83437E;
+        background-color: $moneta-purple;
     }
 
     .blocbox-dk-blue {
-        background-color: #161A5B;
+        background-color: $blocbox-dk-blue;
     }
 
     .blocbox-med-violet {
-        background-color: #3A3FA7;
+        background-color: $blocbox-med-violet;
     }
 
     .blocbox-lt-violet {
-        background-color: #6D73F4;
+        background-color: $blocbox-lt-violet;
     }
 
     .blocbox-gold {
-        background-color: #F4D03F;
+        background-color: $blocbox-gold;
     }
 }
 
@@ -258,7 +262,7 @@
 
 // Testing Section
 .testing-bg {
-    background-color: #F8FAFA;
+    background-color: $lt-grey-bg;
 }
 
 .testing-container {
@@ -284,7 +288,7 @@
     position: absolute;
     z-index: 1;
     opacity: 0.45;
-    background: #BEE2E2;
+    background: $lt-green;
     background-image: linear-gradient(0deg, rgba(255,255,255,0.35) 0%, rgba(136,202,201,0.41) 23%, rgba(111,134,147,0.53) 48%, rgba(118,92,128,0.62) 73%, #583765 100%);
 }
 
@@ -301,7 +305,7 @@
 .moneta-logos {
     ul {
         li:last-child {
-            background-color: #42BBC5;
+            background-color: $moneta-med-blue;
         }
     }
 
@@ -343,7 +347,6 @@
 
 // Blocbox Case Study Specific
 .blocbox-case-study-bg {
-    //opacity: 0.80;
     background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #161A5B 100%);
 }
 

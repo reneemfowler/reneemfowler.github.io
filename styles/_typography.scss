@@ -9,7 +9,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: $lato-light;
     color: $black;
     line-height: 24px;
 }
@@ -25,7 +25,7 @@ h1 {
 
 h2 {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 800;
+    font-weight: $fira-sans-extra-bold;
     font-size: 48px;
     color: $dark-purple;
     line-height: 48px;
@@ -36,7 +36,7 @@ h2 {
 
 h3 {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 800;
+    font-weight: $fira-sans-extra-bold;
     font-size: 36px;
     line-height: 53px;
     text-transform: lowercase;
@@ -46,7 +46,7 @@ h3 {
 
 h4 {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 600;
+    font-weight: $fira-sans-semi-bold;
     font-size: 20px;
     line-height: 29px;
     text-transform: uppercase;
@@ -55,7 +55,7 @@ h4 {
 
 h5 {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 600;
+    font-weight: $fira-sans-semi-bold;
     font-size: 12px;
     color: $dark-purple;
     line-height: 17px;
@@ -81,47 +81,47 @@ p {
 }
 
 a {
-    font-weight: 900;
+    font-weight: $lato-black;
     color: $dark-green;
 }
 
 .nav-links {
     ul {
-        font-weight: 400;
+        font-weight: $lato-regular;
         font-size: 14px;
         line-height: 15px;
         text-transform: lowercase;
     }
 
     a {
-        font-weight: 400;
+        font-weight: $lato-regular;
         color: $black;
     }
 
     li:nth-child(4) {
         a {
-            font-weight: 900;
+            font-weight: $lato-black;
             color: $dark-green;
         }
     }
 }
 
 footer {
-    font-weight: 300;
+    font-weight: $lato-light;
     font-size: 14px;
     color: #fff;
     line-height: 17px;
 
     a {
         color: #fff;
-        font-weight: 400;
+        font-weight: $lato-regular;
         text-transform: lowercase;
     }
 }
 
 button {
     font-size: 10px;
-    font-weight: 700;
+    font-weight: $lato-bold;
     line-height: 12px;
     text-transform: uppercase;
     text-align: center;
@@ -135,7 +135,7 @@ button {
 .header-content-wrapper {
     p {
         text-transform: uppercase;
-        font-weight: 400;
+        font-weight: $lato-regular;
         line-height: 22px;
     }
 }
@@ -143,7 +143,7 @@ button {
 .scroll-down-wrapper {
     p {
         font-size: 8px;
-        font-weight: 700;
+        font-weight: $lato-bold;
         text-transform: uppercase;
         color: #4A4A4A;
         line-height: 10px;
@@ -155,7 +155,7 @@ button {
     color: #fff;
 
     ul {
-        font-weight: 400;
+        font-weight: $lato-regular;
         font-size: 12px;
         line-height: 19px;
     }
@@ -163,7 +163,7 @@ button {
 
 .testimonials {
     blockquote {
-        font-weight: 400;
+        font-weight: $lato-regular;
         font-style: italic;
         line-height: 28px;
         color: #fff;
@@ -180,7 +180,7 @@ button {
 .testimonial-client {
     p {
         font-family: 'Fira Sans', sans-serif;
-        font-weight: 600;
+        font-weight: $fira-sans-semi-bold;
         font-size: 14px;
         line-height: 20px;
         color: #fff;
@@ -189,7 +189,7 @@ button {
 
     p:last-child {
         font-family: 'Lato', sans-serif;
-        font-weight: 400;
+        font-weight: $lato-regular;
         font-size: 12px;
         color: $lt-green;
     }
@@ -198,7 +198,7 @@ button {
 // Case Study Typography
 .chart-labels {
     li {
-        font-weight: 300;
+        font-weight: $lato-light;
         font-size: 12px;
         padding: 0 20px 5px 0;
     }
@@ -210,7 +210,7 @@ button {
         padding-left: 25px;
 
         li {
-            font-weight: 300;
+            font-weight: $lato-light;
             font-size: 12px;
             line-height: 18px;
         }

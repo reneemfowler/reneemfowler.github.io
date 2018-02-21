@@ -216,7 +216,6 @@ button.slick-next {
 nav {
   display: flex;
   justify-content: space-between;
-  background: rgba(255, 255, 255, 0.3);
   padding: 15px 10px 10px 60px; }
   nav .main-nav-logo {
     display: flex; }
@@ -452,7 +451,7 @@ section.testimonials {
     border-bottom: 3px solid #4A4A4A;
     margin-bottom: 40px;
     font-family: 'Lato', sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     font-size: 16px; }
   .contact-me-form textarea {
     height: 40px; }
@@ -544,6 +543,8 @@ section.testimonials {
 .chart-labels {
   display: flex;
   flex-wrap: wrap; }
+  .chart-labels .med-purple {
+    background-color: #56425E; }
   .chart-labels .dark-purple {
     background-color: #342839; }
   .chart-labels .med-pink {
@@ -556,7 +557,7 @@ section.testimonials {
 .chart-label-color {
   width: 15px;
   height: 15px;
-  background-color: #56425E;
+  background-color: #2B2B2C;
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px; }
