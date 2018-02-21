@@ -68,12 +68,12 @@ p {
   margin-top: 0; }
 
 a {
-  font-weight: 700;
+  font-weight: 400;
   color: #527A7A; }
 
 .nav-links ul {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 15px;
   text-transform: uppercase; }
 .nav-links a {
@@ -102,12 +102,12 @@ footer {
 
 button {
   font-size: 10px;
-  font-weight: 700;
   line-height: 12px;
   text-transform: uppercase;
   text-align: center; }
   button a {
-    color: #2B2B2C; }
+    color: #2B2B2C;
+    font-weight: 700; }
 
 .header-content-wrapper p {
   text-transform: uppercase;
@@ -165,7 +165,7 @@ button {
     font-size: 12px;
     line-height: 18px; }
 
-.user-stories-examples p {
+.user-stories-flows-example p {
   font-size: 14px; }
 
 .container {
@@ -212,7 +212,28 @@ a:hover {
   padding: 10px 20px;
   border: 1px solid #2B2B2C;
   background: none;
-  z-index: 1; }
+  z-index: 1;
+  transition: all 0.2s ease-in-out; }
+  .primary-button:hover {
+    background-color: #D8C3CA;
+    border: 1px solid #D8C3CA; }
+    .primary-button:hover a {
+      color: #fff;
+      text-decoration: none; }
+
+.ghost-button {
+  padding: 10px 15px;
+  border: 1px solid #000;
+  background: none;
+  transition: all 0.2s ease-in-out; }
+  .ghost-button i {
+    padding-right: 5px; }
+  .ghost-button:hover {
+    background-color: #56425E;
+    border: 1px solid #56425E; }
+    .ghost-button:hover a {
+      color: #fff;
+      text-decoration: none; }
 
 button.slick-prev {
   left: -150px; }
@@ -479,7 +500,7 @@ section.testimonials {
   padding: 50px 0; }
   .case-study-wrapper-centered img {
     width: 100%;
-    padding-top: 50px; }
+    padding: 50px 0 30px 0; }
 
 .case-study-content-wrapper {
   display: flex;

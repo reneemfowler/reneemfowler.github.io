@@ -81,14 +81,14 @@ p {
 }
 
 a {
-    font-weight: $lato-bold;
+    font-weight: $lato-regular;
     color: $dark-green;
 }
 
 .nav-links {
     ul {
         font-weight: $lato-regular;
-        font-size: 12px;
+        font-size: 11px;
         line-height: 15px;
         text-transform: uppercase;
     }
@@ -113,7 +113,6 @@ a {
             padding: 10px 15px;
             color: #fff;
             text-decoration: none;
-
         }
     }
 }
@@ -133,13 +132,13 @@ footer {
 
 button {
     font-size: 10px;
-    font-weight: $lato-bold;
     line-height: 12px;
     text-transform: uppercase;
     text-align: center;
 
     a {
         color: $black;
+        font-weight: $lato-bold;
     }
 }
 
@@ -229,7 +228,7 @@ button {
     }
 }
 
-.user-stories-examples {
+.user-stories-flows-example {
     p {
         font-size: 14px;
     }
