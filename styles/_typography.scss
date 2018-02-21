@@ -81,16 +81,16 @@ p {
 }
 
 a {
-    font-weight: $lato-black;
+    font-weight: $lato-bold;
     color: $dark-green;
 }
 
 .nav-links {
     ul {
         font-weight: $lato-regular;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 15px;
-        text-transform: lowercase;
+        text-transform: uppercase;
     }
 
     a {
@@ -100,8 +100,20 @@ a {
 
     li:nth-child(4) {
         a {
-            font-weight: $lato-black;
-            color: $dark-green;
+            border: 1px solid $black;
+            padding: 10px 15px;
+            transition: all 0.25s ease-in-out;
+        }
+    }
+
+    li:nth-child(4):hover {
+        a {
+            background-color: $med-green;
+            border: 1px solid $med-green;
+            padding: 10px 15px;
+            color: #fff;
+            text-decoration: none;
+
         }
     }
 }
