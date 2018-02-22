@@ -286,6 +286,25 @@ button {
 }
 
 
+// Foodlandia Case Study
+.foodlandia-typography {
+    ul {
+        font-size: 1.333em; /* 24px */
+        line-height: 1.333;
+    }
+
+    .josefin-slab-semibold-heading {
+        font-family: 'Josefin Slab', serif;
+        font-weight: 600;
+    }
+
+    .open-sans-regular-body {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+}
+
+
 // Media Queries
 @media screen and (max-width: $medium-screen) {
     body {

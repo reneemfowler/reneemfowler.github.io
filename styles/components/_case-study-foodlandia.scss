@@ -1,0 +1,35 @@
+.colour-swatches {
+    .foodlandia-green {
+        background-color: $foodlandia-green;
+    }
+
+    .foodlandia-yellow {
+        background-color: $foodlandia-yellow;
+    }
+
+    .foodlandia-violet {
+        background-color: $foodlandia-violet;
+    }
+
+    .foodlandia-pink {
+        background-color: $foodlandia-pink;
+    }
+}
+
+.foodlandia-logos {
+    ul {
+        li:last-child {
+            background-color: #000;
+        }
+    }
+
+    li {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+.foodlandia-typography {
+    display: flex;
+    justify-content: space-between;
+}

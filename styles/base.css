@@ -218,6 +218,17 @@ button {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400; }
 
+.foodlandia-typography ul {
+  font-size: 1.333em;
+  /* 24px */
+  line-height: 1.333; }
+.foodlandia-typography .josefin-slab-semibold-heading {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600; }
+.foodlandia-typography .open-sans-regular-body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400; }
+
 @media screen and (max-width: 768px) {
   body {
     font-size: 17px; }
@@ -698,7 +709,7 @@ section.testimonials {
   display: flex; }
   .style-guide-sections h6 {
     padding-bottom: 15px; }
-  .style-guide-sections ul {
+  .style-guide-sections .colour-palette ul {
     font-size: 0.667em;
     /* 12px */
     font-weight: 400;
@@ -837,6 +848,25 @@ section.testimonials {
   .cs-blocbox-preference-sample img,
   .cs-blocbox-preference-sample p {
     padding-right: 40px; }
+
+.colour-swatches .foodlandia-green {
+  background-color: #00FFC6; }
+.colour-swatches .foodlandia-yellow {
+  background-color: #FFED00; }
+.colour-swatches .foodlandia-violet {
+  background-color: #5138CA; }
+.colour-swatches .foodlandia-pink {
+  background-color: #FF0086; }
+
+.foodlandia-logos ul li:last-child {
+  background-color: #000; }
+.foodlandia-logos li {
+  width: 250px;
+  height: 150px; }
+
+.foodlandia-typography {
+  display: flex;
+  justify-content: space-between; }
 
 .colour-swatches .moneta-dk-blue {
   background-color: #4D7298; }
