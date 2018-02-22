@@ -176,7 +176,8 @@ button {
 
 .testimonials {
     blockquote {
-        font-weight: $lato-regular;
+        font-weight: $lato-light;
+        font-size: 1.111em; /* 20px */
         font-style: italic;
         line-height: 1.55;
         color: #fff;

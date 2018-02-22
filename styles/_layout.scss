@@ -52,6 +52,7 @@ a {
     background: none;
     z-index: 1;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 
     &:hover {
         background-color: $med-pink;
@@ -69,6 +70,7 @@ a {
     border: 1px solid #000;
     background: none;
     transition: all 0.2s ease-in-out;
+    cursor: pointer;
 
     i {
         padding-right: 5px;
@@ -83,14 +85,6 @@ a {
             text-decoration: none;
         }
     }
-}
-
-button.slick-prev {
-    left: 0;
-}
-
-button.slick-next {
-    right: 0;
 }
 
 

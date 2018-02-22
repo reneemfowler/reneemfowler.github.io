@@ -32,5 +32,12 @@
 }
 
 @media screen and (max-width: $medium-screen) {
+    .header-content-wrapper {
+        padding: 150px 0;
+        max-width: 100%;
+    }
 
+    .scroll-down-wrapper {
+        display: none;
+    }
 }
