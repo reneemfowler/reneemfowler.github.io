@@ -10,13 +10,13 @@ nav {
 
     .main-nav-logo {
         display: flex;
-        flex: 0 1 35%;
+        flex: 0 1 10%;
     }
 
-    .nav-links {
+    .nav-links-desktop {
         display: flex;
         align-items: center;
-        flex: 0 1 55%;
+        flex: 0 1 80%;
         justify-content: flex-end;
 
         ul {
@@ -38,6 +38,41 @@ nav {
 
             img {
                 opacity: 0.50;
+            }
+        }
+    }
+
+    .nav-links-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: $medium-screen) {
+    nav {
+        align-items: center;
+        background: transparent;
+        position: inherit;
+
+        .main-nav-logo {
+            flex: 0 1 45%;
+
+            img {
+                width: 50px;
+                height: 65.22px;
+            }
+        }
+
+        .nav-links-desktop {
+            display: none;
+        }
+
+        .nav-links-mobile {
+            display: flex;
+            justify-content: flex-end;
+            flex: 0 1 45%;
+
+            i {
+                font-size: 24px;
             }
         }
     }

@@ -79,20 +79,20 @@ a {
   font-weight: 400;
   color: #527A7A; }
 
-.nav-links ul {
+.nav-links-desktop ul {
   font-weight: 400;
   font-size: 0.611em;
   /* 11px */
   line-height: 1.35;
   text-transform: uppercase; }
-.nav-links a {
+.nav-links-desktop a {
   font-weight: 400;
   color: #2B2B2C; }
-.nav-links li:nth-child(4) a {
+.nav-links-desktop li:nth-child(4) a {
   border: 1px solid #2B2B2C;
   padding: 10px 15px;
   transition: all 0.25s ease-in-out; }
-.nav-links li:nth-child(4):hover a {
+.nav-links-desktop li:nth-child(4):hover a {
   background-color: #88CAC9;
   border: 1px solid #88CAC9;
   padding: 10px 15px;
@@ -330,25 +330,45 @@ nav {
   z-index: 5; }
   nav .main-nav-logo {
     display: flex;
-    flex: 0 1 35%; }
-  nav .nav-links {
+    flex: 0 1 10%; }
+  nav .nav-links-desktop {
     display: flex;
     align-items: center;
-    flex: 0 1 55%;
+    flex: 0 1 80%;
     justify-content: flex-end; }
-    nav .nav-links ul {
+    nav .nav-links-desktop ul {
       margin: 0;
       display: flex; }
-      nav .nav-links ul li {
+      nav .nav-links-desktop ul li {
         padding-right: 50px; }
-      nav .nav-links ul li:nth-child(5),
-      nav .nav-links ul li:nth-child(6) {
+      nav .nav-links-desktop ul li:nth-child(5),
+      nav .nav-links-desktop ul li:nth-child(6) {
         padding-right: 15px; }
-      nav .nav-links ul li:last-child {
+      nav .nav-links-desktop ul li:last-child {
         padding-right: 0; }
-      nav .nav-links ul img {
+      nav .nav-links-desktop ul img {
         opacity: 0.50; }
+  nav .nav-links-mobile {
+    display: none; }
 
+@media screen and (max-width: 768px) {
+  nav {
+    align-items: center;
+    background: transparent;
+    position: inherit; }
+    nav .main-nav-logo {
+      flex: 0 1 45%; }
+      nav .main-nav-logo img {
+        width: 50px;
+        height: 65.22px; }
+    nav .nav-links-desktop {
+      display: none; }
+    nav .nav-links-mobile {
+      display: flex;
+      justify-content: flex-end;
+      flex: 0 1 45%; }
+      nav .nav-links-mobile i {
+        font-size: 24px; } }
 .header-content-wrapper {
   margin: 0 auto;
   max-width: 590px;
