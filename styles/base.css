@@ -297,18 +297,20 @@ button.slick-next {
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 768px;
-    margin-left: 20px;
-    margin-right: 20px;
-    min-height: 0; } }
-.button-wrapper .button-bg {
-  top: 8px;
-  left: 8px; }
+    max-width: 708px;
+    margin-left: 30px;
+    margin-right: 30px;
+    min-height: 0; }
 
-.primary-button {
-  padding: 20px 50px;
-  background: none; }
+  .button-wrapper .button-bg {
+    top: 8px;
+    left: 8px; }
 
+  .primary-button {
+    padding: 20px 50px; }
+
+  .ghost-button {
+    padding: 20px 30px; } }
 nav {
   width: 100%;
   display: flex;
@@ -560,6 +562,9 @@ section.testimonials {
     width: 100%;
     padding: 50px 0 30px 0; }
 
+.case-study-article-wrapper {
+  max-width: 100%; }
+
 .case-study-content-wrapper {
   display: flex;
   justify-content: space-between; }
@@ -738,6 +743,57 @@ section.testimonials {
   position: relative;
   z-index: 2; }
 
+@media screen and (max-width: 768px) {
+  .case-study-intro-container {
+    max-width: 708px;
+    margin: 0 auto;
+    min-height: 0;
+    margin-left: 30px;
+    margin-right: 30px; }
+
+  .cs-summary-details-container {
+    max-width: 708px;
+    margin-left: 30px;
+    margin-right: 30px; }
+
+  .case-study-wrapper-centered {
+    max-width: 708px;
+    margin-left: 30px;
+    margin-right: 30px; }
+
+  .case-study-intro-wrapper {
+    text-align: center; }
+
+  .case-study-article-wrapper {
+    padding: 50px 0; }
+
+  .case-study-content-wrapper {
+    flex-direction: column; }
+    .case-study-content-wrapper .case-study-content-left {
+      padding-bottom: 40px; }
+
+  .case-study-summary {
+    flex-direction: column;
+    padding: 30px 0; }
+    .case-study-summary img {
+      align-self: center;
+      width: 75%;
+      height: 75%;
+      padding-bottom: 40px; }
+    .case-study-summary p {
+      line-height: 1.5; }
+
+  .competitive-analysis .case-study-content-left {
+    padding-bottom: 0; }
+
+  .ca-infographic {
+    display: none; }
+
+  .user-stories {
+    padding: 50px 0; }
+
+  .user-flows {
+    padding-bottom: 50px; } }
 .colour-swatches .blocbox-dk-blue {
   background-color: #161A5B; }
 .colour-swatches .blocbox-med-violet {

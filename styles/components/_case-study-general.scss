@@ -257,3 +257,79 @@
     position: relative;
     z-index: 2;
 }
+
+
+// Media Queries
+@media screen and (max-width: $medium-screen) {
+
+    .case-study-intro-container {
+        max-width: 708px;
+        margin: 0 auto;
+        min-height: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+
+    .cs-summary-details-container {
+        max-width: 708px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .case-study-wrapper-centered {
+        max-width: 708px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .case-study-intro-wrapper {
+        text-align: center;
+    }
+
+    .case-study-article-wrapper {
+        padding: 50px 0;
+    }
+
+    .case-study-content-wrapper {
+        flex-direction: column;
+
+        .case-study-content-left {
+            padding-bottom: 40px;
+        }
+    }
+
+    .case-study-summary {
+        flex-direction: column;
+        padding: 30px 0;
+
+        img {
+            align-self: center;
+            width: 75%;
+            height: 75%;
+            padding-bottom: 40px;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+    }
+
+    .competitive-analysis {
+        .case-study-content-left {
+            padding-bottom: 0;
+        }
+    }
+
+    .ca-infographic {
+        display: none;
+    }
+
+    .user-stories {
+        padding: 50px 0;
+    }
+
+    .user-flows {
+        padding-bottom: 50px;
+    }
+}
