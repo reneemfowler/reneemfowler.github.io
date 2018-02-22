@@ -4,7 +4,7 @@ section.testimonials {
 
 .testimonial-wrapper {
     margin: 0 auto;
-    max-width: 677px;
+    width: 100%;
     padding: 30px 0 30px 0;
 
     blockquote {
@@ -14,7 +14,9 @@ section.testimonials {
 }
 
 .testimonial-quote {
+    margin: 0 auto;
     display: flex;
+    max-width: 677px;
 
     img:last-child {
         align-self: flex-end;

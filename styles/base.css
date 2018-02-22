@@ -188,7 +188,7 @@ button {
   /* 14px */ }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
@@ -196,7 +196,7 @@ button {
   align-items: center; }
 
 .container-small {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -254,20 +254,27 @@ a {
       text-decoration: none; }
 
 button.slick-prev {
-  left: -150px; }
+  left: 0; }
 
 button.slick-next {
-  right: -150px; }
+  right: 0; }
 
 nav {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 15px 10px 10px 60px; }
+  justify-content: space-evenly;
+  padding-top: 10px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 5; }
   nav .main-nav-logo {
-    display: flex; }
+    display: flex;
+    flex: 0 1 35%; }
   nav .nav-links {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    flex: 0 1 55%;
+    justify-content: flex-end; }
     nav .nav-links ul {
       margin: 0;
       display: flex; }
@@ -276,6 +283,8 @@ nav {
       nav .nav-links ul li:nth-child(5),
       nav .nav-links ul li:nth-child(6) {
         padding-right: 15px; }
+      nav .nav-links ul li:last-child {
+        padding-right: 0; }
       nav .nav-links ul img {
         opacity: 0.50; }
 
@@ -283,7 +292,8 @@ nav {
   margin: 0 auto;
   max-width: 590px;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  padding-bottom: 100px; }
 
 .title-location-wrapper {
   display: flex;
@@ -294,10 +304,11 @@ nav {
     padding-right: 5px; }
 
 .scroll-down-wrapper {
-  margin: 0 auto;
   max-width: 130px;
   display: flex;
-  padding-top: 250px; }
+  position: absolute;
+  bottom: 30px;
+  align-self: center; }
   .scroll-down-wrapper p {
     padding-left: 10px; }
 
@@ -373,13 +384,6 @@ nav {
     position: absolute;
     width: 145%;
     height: 145%; }
-  .project-1 span {
-    position: absolute;
-    transform: rotate(-45deg);
-    color: #fff;
-    left: 95px;
-    right: -70px;
-    display: none; }
 
 .project-2 .project-2-bg {
   background-image: url("../../assets/images/newlyweds.jpg");
@@ -408,13 +412,17 @@ nav {
     transform: rotate(-45deg); }
 
 .design-process-wrapper {
-  padding-bottom: 60px; }
+  padding-bottom: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 .design-process-intro {
-  margin: 0 auto;
   text-align: center;
-  max-width: 895px;
-  padding-bottom: 90px; }
+  padding-bottom: 90px;
+  margin: 0 auto;
+  max-width: 895px; }
 
 .design-process-tiles {
   display: flex; }
@@ -434,37 +442,34 @@ nav {
     padding-bottom: 7px; }
   .process-tile h4 {
     color: #fff; }
-
-.process-tile:first-child {
-  margin-top: 110px; }
-
-.process-tile:nth-child(2) {
-  background-color: #88CAC9; }
-
-.process-tile:nth-child(3) {
-  background-color: #D8C3CA;
-  margin-top: 110px; }
-
-.process-tile:nth-child(4) {
-  background-color: #BEE2E2; }
-
-.process-tile:last-child {
-  background-color: #342839;
-  margin-top: 110px; }
+  .process-tile:first-child {
+    margin-top: 110px; }
+  .process-tile:nth-child(2) {
+    background-color: #88CAC9; }
+  .process-tile:nth-child(3) {
+    background-color: #D8C3CA;
+    margin-top: 110px; }
+  .process-tile:nth-child(4) {
+    background-color: #BEE2E2; }
+  .process-tile:last-child {
+    background-color: #342839;
+    margin-top: 110px; }
 
 section.testimonials {
   background: #56425E linear-gradient(0deg, rgba(255, 255, 255, 0.35) 0%, rgba(136, 202, 201, 0.41) 23%, rgba(111, 134, 147, 0.53) 48%, rgba(118, 92, 128, 0.62) 73%, #583765 100%); }
 
 .testimonial-wrapper {
   margin: 0 auto;
-  max-width: 677px;
+  width: 100%;
   padding: 30px 0 30px 0; }
   .testimonial-wrapper blockquote {
     margin: 0;
     padding: 15px 20px 15px 20px; }
 
 .testimonial-quote {
-  display: flex; }
+  margin: 0 auto;
+  display: flex;
+  max-width: 677px; }
   .testimonial-quote img:last-child {
     align-self: flex-end; }
 
@@ -481,6 +486,9 @@ section.testimonials {
     margin-bottom: 0; }
   .testimonial-client p:last-child {
     padding-top: 0; }
+
+.contact-me {
+  min-height: 0; }
 
 .contact-me-wrapper {
   margin: 0 auto;
@@ -516,7 +524,7 @@ section.testimonials {
   text-align: center; }
 
 .case-study-intro-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   min-height: 70vh;
   display: flex;
@@ -524,7 +532,7 @@ section.testimonials {
   align-items: center; }
 
 .cs-summary-details-container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -766,20 +774,25 @@ section.testimonials {
     padding-right: 40px; }
 
 footer {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: #342839;
-  padding: 30px 60px 30px 60px; }
+  padding: 30px 0; }
 
 .logo-copyright {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  flex: 0 1 45%; }
   .logo-copyright p {
-    padding-left: 20px; }
+    padding-left: 20px;
+    margin: 0; }
 
 .resume-contact-social {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  flex: 0 1 45%;
+  justify-content: flex-end; }
   .resume-contact-social ul {
     display: flex;
     margin: 0 50px 0 25px; }

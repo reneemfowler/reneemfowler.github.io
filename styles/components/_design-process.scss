@@ -1,12 +1,16 @@
 .design-process-wrapper {
     padding-bottom: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .design-process-intro {
-    margin: 0 auto;
     text-align: center;
-    max-width: 895px;
     padding-bottom: 90px;
+    margin: 0 auto;
+    max-width: 895px;
 }
 
 .design-process-tiles {
@@ -34,26 +38,26 @@
     h4 {
         color: #fff;
     }
-}
 
-.process-tile:first-child {
-    margin-top: 110px;
-}
+    &:first-child {
+        margin-top: 110px;
+    }
 
-.process-tile:nth-child(2) {
-    background-color: $med-green;
-}
+    &:nth-child(2) {
+        background-color: $med-green;
+    }
 
-.process-tile:nth-child(3) {
-    background-color: $med-pink;
-    margin-top: 110px;
-}
+    &:nth-child(3) {
+        background-color: $med-pink;
+        margin-top: 110px;
+    }
 
-.process-tile:nth-child(4) {
-    background-color: $lt-green;
-}
+    &:nth-child(4) {
+        background-color: $lt-green;
+    }
 
-.process-tile:last-child {
-    background-color: $dark-purple;
-    margin-top: 110px;
+    &:last-child {
+        background-color: $dark-purple;
+        margin-top: 110px;
+    }
 }
