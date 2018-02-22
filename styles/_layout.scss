@@ -92,3 +92,26 @@ button.slick-prev {
 button.slick-next {
     right: 0;
 }
+
+
+// Media Queries
+@media screen and (max-width: $medium-screen) {
+    .container {
+        max-width: $medium-screen;
+        margin-left: 20px;
+        margin-right: 20px;
+        min-height: 0;
+    }
+}
+
+.button-wrapper {
+    .button-bg {
+        top: 8px;
+        left: 8px;
+    }
+}
+
+.primary-button {
+    padding: 20px 50px;
+    background: none;
+}

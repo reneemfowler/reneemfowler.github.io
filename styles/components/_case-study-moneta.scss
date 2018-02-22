@@ -1,0 +1,50 @@
+.colour-swatches {
+    .moneta-dk-blue {
+        background-color: $moneta-dk-blue;
+    }
+
+    .moneta-med-blue {
+        background-color: $moneta-med-blue;
+    }
+
+    .moneta-med-green {
+        background-color: $moneta-med-green;
+    }
+
+    .moneta-lt-green {
+        background-color: $moneta-lt-green;
+    }
+
+    .moneta-pink {
+        background-color: $moneta-pink;
+    }
+
+    .moneta-purple {
+        background-color: $moneta-purple;
+    }
+}
+
+.moneta-case-study-bg {
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #4D7298 100%);
+}
+
+.moneta-logos {
+    ul {
+        li:last-child {
+            background-color: $moneta-med-blue;
+        }
+    }
+
+    li {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+.moneta-primary-palette {
+    padding-right: 60px;
+}
+
+.moneta-headings {
+    padding-right: 110px;
+}

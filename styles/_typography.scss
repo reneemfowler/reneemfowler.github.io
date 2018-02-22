@@ -143,6 +143,7 @@ button {
     }
 }
 
+
 // Home Page Typography
 .header-content-wrapper {
     p {
@@ -207,6 +208,7 @@ button {
     }
 }
 
+
 // Case Study Typography
 .chart-labels {
     li {
@@ -232,5 +234,64 @@ button {
 .user-stories-flows-example {
     p {
         font-size: 0.778em; /* 14px */
+    }
+}
+
+.test-plan {
+    font-size: 0.778em; /* 14px */
+}
+
+
+// Moneta Case Study
+.moneta-typography {
+    ul {
+        font-size: 1.333em; /* 24px */
+        line-height: 1.333;
+    }
+
+    .playfair-display-black-heading {
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+
+    .montserrat-medium-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+    }
+
+    .montserrat-light-body {
+        font-family: 'Montserrat', sasn-serif;
+        font-weight: 300;
+    }
+}
+
+
+// Blocbox Case Study
+.blocbox-typography {
+    ul {
+        font-size: 1.333em; /* 24px */
+        line-height: 1.333;
+    }
+
+    .roboto-slab-regular-heading {
+        font-family: 'Roboto Slab', serif;
+        font-weight: 400;
+    }
+
+    .open-sans-regular-body {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+}
+
+
+// Media Queries
+@media screen and (max-width: $medium-screen) {
+    body {
+        font-size: 17px;
+    }
+
+    button {
+        font-size: 0.647em; /* 11px */
     }
 }

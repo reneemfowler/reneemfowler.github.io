@@ -1,0 +1,53 @@
+.colour-swatches {
+    .blocbox-dk-blue {
+        background-color: $blocbox-dk-blue;
+    }
+
+    .blocbox-med-violet {
+        background-color: $blocbox-med-violet;
+    }
+
+    .blocbox-lt-violet {
+        background-color: $blocbox-lt-violet;
+    }
+
+    .blocbox-gold {
+        background-color: $blocbox-gold;
+    }
+}
+
+.blocbox-case-study-bg {
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #161A5B 100%);
+}
+
+.blocbox-survey-finding {
+    width: 100%;
+}
+
+.blocbox-logos {
+    ul {
+        li:last-child {
+            background-color: #000;
+        }
+    }
+
+    li {
+        width: 205px;
+        height: 130px;
+    }
+}
+
+.blocbox-typography {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cs-blocbox-preference-sample {
+    display: flex;
+    padding-bottom: 20px;
+
+    img,
+    p {
+        padding-right: 40px;
+    }
+}
