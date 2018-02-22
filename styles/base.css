@@ -373,6 +373,13 @@ nav {
     position: absolute;
     width: 145%;
     height: 145%; }
+  .project-1 span {
+    position: absolute;
+    transform: rotate(-45deg);
+    color: #fff;
+    left: 95px;
+    right: -70px;
+    display: none; }
 
 .project-2 .project-2-bg {
   background-image: url("../../assets/images/newlyweds.jpg");
