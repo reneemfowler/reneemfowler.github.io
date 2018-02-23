@@ -31,6 +31,8 @@
     }
 }
 
+
+// Media Queries
 @media screen and (max-width: $medium-screen) {
     .header-content-wrapper {
         padding: 150px 0;
@@ -39,5 +41,21 @@
 
     .scroll-down-wrapper {
         display: none;
+    }
+}
+
+@media screen and (max-width: $small-screen) {
+    .title-location-wrapper {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 50px;
+
+        p {
+            padding: 0;
+        }
+
+        p:nth-child(2) {
+            display: none;
+        }
     }
 }

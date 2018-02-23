@@ -236,6 +236,9 @@ button {
   button {
     font-size: 0.647em;
     /* 11px */ } }
+@media screen and (max-width: 480px) {
+  h1 {
+    margin: 0; } }
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -400,6 +403,15 @@ nav {
 
   .scroll-down-wrapper {
     display: none; } }
+@media screen and (max-width: 480px) {
+  .title-location-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px; }
+    .title-location-wrapper p {
+      padding: 0; }
+    .title-location-wrapper p:nth-child(2) {
+      display: none; } }
 .about-me {
   position: relative; }
 
