@@ -41,39 +41,45 @@ nav {
             }
         }
     }
+}
 
-    .nav-links-mobile {
-        display: none;
-    }
+.nav-mobile,
+.nav-links-mobile {
+    display: none;
 }
 
 @media screen and (max-width: $medium-screen) {
-    nav {
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
         background: transparent;
         position: inherit;
+        padding-top: 10px;
+
+        i {
+            font-size: 24px;
+            flex: 0 1 45%;
+            text-align: right;
+        }
 
         .main-nav-logo {
             flex: 0 1 45%;
+
 
             img {
                 width: 50px;
                 height: 65.22px;
             }
         }
+    }
 
-        .nav-links-desktop {
-            display: none;
-        }
-
-        .nav-links-mobile {
-            display: flex;
-            justify-content: flex-end;
-            flex: 0 1 45%;
-
-            i {
-                font-size: 24px;
-            }
-        }
+    .nav-links-mobile {
+        display: block;
+        background-color: $ltest-green;
     }
 }

@@ -118,6 +118,47 @@ a {
     }
 }
 
+.nav-links-mobile {
+    text-align: center;
+
+    ul {
+        font-size: 1.0em;
+        text-transform: uppercase;
+    }
+
+    li {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    a {
+        font-weight: $lato-light;
+        color: $black;
+    }
+
+    li:nth-child(4) {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+        a {
+            background-color: $med-green;
+            padding: 20px 0;
+            color: #fff;
+            font-weight: $lato-regular;
+
+        }
+    }
+}
+
+.header-content-wrapper {
+    .title-location-wrapper {
+        p {
+            font-weight: $lato-light;
+        }
+    }
+}
+
 footer {
     font-weight: $lato-light;
     font-size: 0.778em; /* 14px */
