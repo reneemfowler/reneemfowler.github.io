@@ -968,6 +968,13 @@ section.testimonials {
 
   .blocbox-typography div:last-child {
     padding-top: 30px; } }
+.foodlandia-case-study-bg {
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #5138CA 110%); }
+  .foodlandia-case-study-bg .case-study-summary {
+    justify-content: center; }
+  .foodlandia-case-study-bg .cs-summary-content {
+    padding-left: 80px; }
+
 .colour-swatches .foodlandia-green {
   background-color: #00FFC6; }
 .colour-swatches .foodlandia-yellow {
@@ -987,11 +994,19 @@ section.testimonials {
   display: flex;
   justify-content: space-between; }
 
+@media screen and (max-width: 768px) {
+  .foodlandia-case-study-bg img {
+    width: 25%; }
+  .foodlandia-case-study-bg .cs-summary-content {
+    padding: 0; } }
 @media screen and (max-width: 480px) {
   .foodlandia-logos ul {
     flex-wrap: wrap; }
     .foodlandia-logos ul li:nth-child(2) {
       margin-top: 20px; } }
+.moneta-case-study-bg {
+  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #4D7298 100%); }
+
 .colour-swatches .moneta-dk-blue {
   background-color: #4D7298; }
 .colour-swatches .moneta-med-blue {
@@ -1004,9 +1019,6 @@ section.testimonials {
   background-color: #E17BAC; }
 .colour-swatches .moneta-purple {
   background-color: #83437E; }
-
-.moneta-case-study-bg {
-  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #4D7298 100%); }
 
 .moneta-logos ul li:last-child {
   background-color: #42BBC5; }

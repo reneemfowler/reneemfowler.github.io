@@ -1,3 +1,15 @@
+.foodlandia-case-study-bg {
+    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #5138CA 110%);
+
+    .case-study-summary {
+        justify-content: center;
+    }
+
+    .cs-summary-content {
+        padding-left: 80px;
+    }
+}
+
 .colour-swatches {
     .foodlandia-green {
         background-color: $foodlandia-green;
@@ -34,7 +46,20 @@
     justify-content: space-between;
 }
 
+
 // Media Queries
+@media screen and (max-width: $medium-screen) {
+    .foodlandia-case-study-bg {
+        img {
+            width: 25%;
+        }
+
+        .cs-summary-content {
+            padding: 0;
+        }
+    }
+}
+
 @media screen and (max-width: $small-screen) {
     .foodlandia-logos {
         ul {
