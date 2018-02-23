@@ -238,7 +238,16 @@ button {
     /* 11px */ } }
 @media screen and (max-width: 480px) {
   h1 {
-    margin: 0; } }
+    margin: 0; }
+
+  .testimonials blockquote {
+    font-size: 1.0em;
+    /* 18px */ }
+    .testimonials blockquote span {
+      font-family: 'Fira Sans', sans-serif;
+      font-size: 4.222em;
+      /* 76px */
+      color: #BEE2E2; } }
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -594,6 +603,9 @@ section.testimonials {
 
   .testimonial-quote {
     max-width: 550px; } }
+@media screen and (max-width: 480px) {
+  .testimonial-client {
+    padding-bottom: 40px; } }
 .contact-me {
   min-height: 0; }
 
