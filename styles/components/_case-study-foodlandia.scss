@@ -33,3 +33,16 @@
     display: flex;
     justify-content: space-between;
 }
+
+// Media Queries
+@media screen and (max-width: $small-screen) {
+    .foodlandia-logos {
+        ul {
+            flex-wrap: wrap;
+
+            li:nth-child(2) {
+                margin-top: 20px;
+            }
+        }
+    }
+}

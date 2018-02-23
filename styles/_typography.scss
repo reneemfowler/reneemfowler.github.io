@@ -324,13 +324,21 @@ button {
     .testimonials {
         blockquote {
             font-size: 1.0em; /* 18px */
-            
+
             span {
                 font-family: 'Fira Sans', sans-serif;
                 font-size: 4.222em; /* 76px */
                 color: $lt-green;
             }
 
+        }
+    }
+
+    .survey-finding-wrapper {
+        ul {
+            li {
+                font-size: 0.823em; /* 14px */
+            }
         }
     }
 }
