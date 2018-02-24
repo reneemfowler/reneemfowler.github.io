@@ -1,6 +1,6 @@
 .design-process-wrapper {
     padding-bottom: 60px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,6 +15,8 @@
 
 .design-process-tiles {
     display: flex;
+    flex: 0 1 100%;
+    flex-wrap: wrap;
 }
 
 .process-tile {
@@ -59,5 +61,26 @@
     &:last-child {
         background-color: $dark-purple;
         margin-top: 110px;
+    }
+}
+
+@media screen and (max-width: $medium-screen) {
+    .design-process-intro {
+        padding-bottom: 40px;
+    }
+
+    .process-tile:first-child,
+    .process-tile:nth-child(3),
+    .process-tile:nth-child(5) {
+        margin-top: 0;
+    }
+
+    .process-tile {
+        transform: none;
+        flex: 0 1 100%;
+
+        .process-tile-content {
+            transform: none;
+        }
     }
 }
