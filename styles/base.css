@@ -432,8 +432,10 @@ nav {
         height: 65.22px; }
 
   .nav-links-mobile {
-    display: block;
-    background-color: #D8EEEE; } }
+    display: none;
+    background-color: #D8EEEE; }
+    .nav-links-mobile.expanded {
+      display: block; } }
 .header-content-wrapper {
   margin: 0 auto;
   max-width: 590px;

@@ -110,7 +110,11 @@ nav {
     }
 
     .nav-links-mobile {
-        display: block;
+        display: none;
         background-color: $ltest-green;
+
+        &.expanded {
+            display: block;
+        }
     }
 }
