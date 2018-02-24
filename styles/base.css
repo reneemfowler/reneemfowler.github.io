@@ -123,6 +123,12 @@ a {
 .header-content-wrapper .title-location-wrapper p {
   font-weight: 300; }
 
+.view-case-study {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.778em; }
+
 footer {
   font-weight: 300;
   font-size: 0.778em;
@@ -503,10 +509,9 @@ nav {
     margin-bottom: 20px; }
 
 .design-projects-wrapper {
-  width: 100%;
+  max-width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 30px 0; }
+  justify-content: space-between; }
 
 .design-project-intro {
   flex: 0 1 30%; }
@@ -515,13 +520,41 @@ nav {
   flex: 0 1 50%;
   display: flex;
   align-items: center;
+  position: relative; }
+
+.tile-wrapper {
   position: relative;
-  right: -100px;
-  top: -100px; }
+  width: 280px;
+  height: 280px; }
+  .tile-wrapper .view-case-study {
+    position: absolute;
+    bottom: 15%;
+    width: 280px;
+    pointer-events: none;
+    display: none; }
+  .tile-wrapper:hover .view-case-study {
+    display: block; }
+  .tile-wrapper:hover .project-tile .project-1-overlay {
+    background-color: rgba(0, 0, 0, 0.7); }
+  .tile-wrapper:hover .project-tile .project-2-overlay {
+    background-color: rgba(0, 0, 0, 0.7); }
+  .tile-wrapper:hover .project-tile .project-3-overlay {
+    background-color: rgba(0, 0, 0, 0.7); }
+
+.left-diamond {
+  top: 110px;
+  left: 60px; }
+
+.middle-diamond {
+  top: -110px; }
+
+.right-diamond {
+  top: 110px;
+  right: 60px; }
 
 .project-tile {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   transform: rotate(45deg);
   box-shadow: 5px 5px 10px rgba(114, 114, 114, 0.6);
   display: flex;
@@ -532,22 +565,19 @@ nav {
   .project-tile img {
     transform: rotate(-45deg); }
 
-.project-1 {
-  top: 140px;
-  left: -190px; }
-  .project-1 .project-1-bg {
-    background-image: url("../../assets/images/jam-cafe.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    width: 145%;
-    height: 145%;
-    transform: rotate(-45deg); }
-  .project-1 .project-1-overlay {
-    background-color: rgba(0, 0, 0, 0.3);
-    position: absolute;
-    width: 145%;
-    height: 145%; }
+.project-1 .project-1-bg {
+  background-image: url("../../assets/images/jam-cafe.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 145%;
+  height: 145%;
+  transform: rotate(-45deg); }
+.project-1 .project-1-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  width: 145%;
+  height: 145%; }
 
 .project-2 .project-2-bg {
   background-image: url("../../assets/images/newlyweds.jpg");
@@ -563,18 +593,53 @@ nav {
   width: 145%;
   height: 145%; }
 
-.project-3 {
-  top: 140px;
-  right: 160px; }
-  .project-3 .project-3-bg {
-    background-image: url("../../assets/images/blocbox-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    width: 145%;
-    height: 145%;
-    transform: rotate(-45deg); }
+.project-3 .project-3-bg {
+  background-image: url("../../assets/images/blocbox-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  width: 145%;
+  height: 145%;
+  transform: rotate(-45deg); }
+.project-3 .project-3-overlay {
+  position: absolute;
+  width: 145%;
+  height: 145%; }
 
+@media screen and (max-width: 1200px) {
+  .design-projects-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column; }
+
+  .design-project-intro,
+  .design-project-tiles {
+    flex: 0 1 100%; }
+
+  .design-project-intro {
+    text-align: center; }
+
+  .design-project-tiles {
+    margin-top: 200px; } }
+@media screen and (max-width: 768px) {
+  .design-projects-wrapper {
+    padding: 30px 0; }
+
+  .design-project-tiles {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 400px; }
+
+  .left-diamond {
+    top: 0;
+    left: 0; }
+
+  .middle-diamond {
+    top: 140px; }
+
+  .right-diamond {
+    top: 280px;
+    right: 0; } }
 .design-process-wrapper {
   padding-bottom: 60px;
   width: 100%;

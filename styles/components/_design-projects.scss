@@ -1,8 +1,7 @@
 .design-projects-wrapper {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
 }
 
 .design-project-intro {
@@ -14,13 +13,59 @@
     display: flex;
     align-items: center;
     position: relative;
-    right: -100px;
-    top: -100px;
+}
+
+.tile-wrapper {
+    position: relative;
+    width: 280px;
+    height: 280px;
+
+    .view-case-study {
+        position: absolute;
+        bottom: 15%;
+        width: 280px;
+        pointer-events: none;
+        display: none;
+    }
+
+    &:hover {
+        .view-case-study {
+            display: block;
+        }
+
+        .project-tile {
+            .project-1-overlay {
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+
+            .project-2-overlay {
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+
+            .project-3-overlay {
+                background-color: rgba(0, 0, 0, 0.7);
+            }
+        }
+    }
+}
+
+.left-diamond {
+    top: 110px;
+    left: 60px;
+}
+
+.middle-diamond {
+    top: -110px;
+}
+
+.right-diamond {
+    top: 110px;
+    right: 60px;
 }
 
 .project-tile {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     transform: rotate(45deg);
     box-shadow: 5px 5px 10px rgba(114, 114, 114, 0.60);
     display: flex;
@@ -35,8 +80,6 @@
 }
 
 .project-1 {
-    top: 140px;
-    left: -190px;
 
     .project-1-bg {
         background-image: url("../../assets/images/jam-cafe.jpg");
@@ -76,8 +119,6 @@
 }
 
 .project-3 {
-    top: 140px;
-    right: 160px;
 
     .project-3-bg {
         background-image: url("../../assets/images/blocbox-bg.jpg");
@@ -87,5 +128,59 @@
         width: 145%;
         height: 145%;
         transform: rotate(-45deg);
+    }
+
+    .project-3-overlay {
+        position: absolute;
+        width: 145%;
+        height: 145%;
+    }
+}
+
+// Media Queries
+@media screen and (max-width: 1200px) {
+    .design-projects-wrapper {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .design-project-intro,
+    .design-project-tiles {
+        flex: 0 1 100%;
+    }
+
+    .design-project-intro {
+        text-align: center;
+    }
+
+    .design-project-tiles {
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: $medium-screen) {
+    .design-projects-wrapper {
+        padding: 30px 0;
+    }
+
+    .design-project-tiles {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-bottom: 400px;
+    }
+
+    .left-diamond {
+        top: 0;
+        left: 0;
+    }
+
+    .middle-diamond {
+        top: 140px;
+    }
+
+    .right-diamond {
+        top: 280px;
+        right: 0;
     }
 }
