@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    // Lightbox
+    // Slick Slider
     $('.testimonial-wrapper').slick({
         dots: true
     });

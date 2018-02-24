@@ -24,9 +24,9 @@
                     <li><a href="index.html#projects">Projects</a></li>
                     <li><a href="index.html#design-process">Design Process</a></li>
                     <li><a href="index.html#contact-me">Contact Me</a></li>
-                    <li><a href="https://www.linkedin.com/in/reneemfowler/"><img src="assets/icons/linkedin-black.svg" alt="LinkedIn Profile" target="_blank"></a></li>
-                    <li><a href="https://dribbble.com/reneemfowler"><img src="assets/icons/dribbble-black.svg" alt="Dribbble Profile" target="_blank"></a></li>
-                    <li><a href="https://github.com/reneemfowler/"><img src="assets/icons/github-black.svg" alt="Github Profile" target="_blank"></a></li>
+                    <li><a class="social linkedin" href="https://www.linkedin.com/in/reneemfowler/" target="_blank"></a></li>
+                    <li><a class="social dribbble" href="https://dribbble.com/reneemfowler" target="_blank"></a></li>
+                    <li><a class="social github" href="https://github.com/reneemfowler/" target="_blank"></a></li>
                 </ul>
             </div>
             <div class="nav-links-mobile">
@@ -396,22 +396,34 @@
             <div class="resume-contact-social">
                 <a href="assets/Resume-Renee_Fowler.pdf" download="Renee_Fowler-Resume">Download Resume</a>
                 <ul>
-                    <li><img src="assets/icons/linkedin-white.svg" alt="LinkedIn Profile"></li>
-                    <li><img src="assets/icons/dribbble-white.svg" alt="Dribbble Profile"></li>
-                    <li><img src="assets/icons/github-white.svg" alt="Github Profile"></li>
+                    <li><a class="social linkedin" href="https://www.linkedin.com/in/reneemfowler/" target="_blank"></a></li>
+                    <li><a class="social dribbble" href="https://dribbble.com/reneemfowler" target="_blank"></a></li>
+                    <li><a class="social github" href="https://github.com/reneemfowler/" target="_blank"></a></li>
                 </ul>
-                <a href="index.html#contact-me">Contact Me</a>
+                <a href="#contact-me">Contact Me</a>
             </div>
             <p class="copyright-mobile">&copy; Renee Fowler 2018. All Rights Reserved.</p>
         </footer>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/main.js"></script>
         <script src="js/lightbox.js"></script>
+
         <script>
             lightbox.option({
                 'alwaysShowNavOnTouchDevices': true,
                 'wrapAround': true
-            })
+            });
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114731004-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-114731004-1');
         </script>
 
     </body>
