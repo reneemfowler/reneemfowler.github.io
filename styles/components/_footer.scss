@@ -29,6 +29,41 @@ footer {
 
         li {
             padding-left: 25px;
+
+            a {
+                &.social {
+                    width: 24px;
+                    height: 24px;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    display: block;
+                }
+
+                &.linkedin {
+                    background-image: url('../assets/icons/linkedin-white.svg');
+
+                    &:hover {
+                        background-image: url('../assets/icons/linkedin-colour.svg');
+                    }
+                }
+
+                &.dribbble {
+                    background-image: url('../assets/icons/dribbble-white.svg');
+
+                    &:hover {
+                        background-image: url('../assets/icons/dribbble-colour.svg');
+                    }
+                }
+
+                &.github {
+                    background-image: url('../assets/icons/github-white.svg');
+
+                    &:hover {
+                        background-image: url('../assets/icons/github-colour.svg');
+                    }
+                }
+            }
         }
     }
 }

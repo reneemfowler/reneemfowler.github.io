@@ -25,6 +25,37 @@ nav {
 
             li {
                 padding-right: 50px;
+
+                a {
+                    &.social {
+                        width: 18px;
+                        height: 18px;
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                        background-position: center center;
+                        display: block;
+                    }
+
+                    &.linkedin {
+                        background-image: url('../assets/icons/linkedin-black.svg');
+
+                        &:hover {
+                            background-image: url('../assets/icons/linkedin-colour.svg');
+                        }
+                    }
+
+                    &.dribbble {
+                        background-image: url('../assets/icons/dribbble-black.svg');
+
+                        &:hover {
+                            background-image: url('../assets/icons/dribbble-colour.svg');
+                        }
+                    }
+
+                    &.github {
+                        background-image: url('../assets/icons/github-black.svg');
+                    }
+                }
             }
 
             li:nth-child(5),
