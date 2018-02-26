@@ -50,12 +50,9 @@
         text-align: center;
         padding-top: 50px;
 
-        p {
+        p:first-child {
             padding: 0;
-        }
-
-        p:nth-child(2) {
-            display: none;
+            margin-bottom: 5px;
         }
     }
 }

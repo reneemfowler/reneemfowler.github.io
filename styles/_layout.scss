@@ -36,8 +36,8 @@ a {
 
     .button-bg {
         position: absolute;
-        top: 5px;
-        left: 5px;
+        top: 7px;
+        left: 7px;
         z-index: 0;
         background-color: $lt-green;
         height: 100%;
@@ -47,7 +47,7 @@ a {
 
 .primary-button {
     position: relative;
-    padding: 10px 20px;
+    padding: 15px 25px;
     border: 1px solid $black;
     background: none;
     z-index: 1;
@@ -66,7 +66,7 @@ a {
 }
 
 .ghost-button {
-    padding: 10px 15px;
+    padding: 15px 20px;
     border: 1px solid #000;
     background: none;
     transition: all 0.2s ease-in-out;

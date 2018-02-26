@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Renee Fowler - UX/UI Case Study: Blocbox</title>
         <!-- Portfolio Typography -->
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:600,600i,700,700i,800,800i,900,900i|Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:500,600,700,800,900|Lato:300,300i,400,700,900" rel="stylesheet">
         <!-- Blocbox Case Study Typography for Branding -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
@@ -14,25 +14,38 @@
     </head>
 
     <body>
-        <nav>
+        <nav class="nav-desktop">
             <div class="main-nav-logo">
                 <a href="index.html"><img src="assets/logo-lightbg.png" alt="Renee Fowler Logo" width="40px" height="52.17"></a>
             </div>
             <div class="nav-links-desktop">
                 <ul>
-                    <li><a href="index.html#about-me">About Me</a></li>
                     <li><a href="index.html#projects">Projects</a></li>
                     <li><a href="index.html#design-process">Design Process</a></li>
+                    <li><a href="index.html#about-me">About Me</a></li>
                     <li><a href="index.html#contact-me">Contact Me</a></li>
                     <li><a class="social linkedin" href="https://www.linkedin.com/in/reneemfowler/" target="_blank"></a></li>
                     <li><a class="social dribbble" href="https://dribbble.com/reneemfowler" target="_blank"></a></li>
                     <li><a class="social github" href="https://github.com/reneemfowler/" target="_blank"></a></li>
                 </ul>
             </div>
-            <div class="nav-links-mobile">
-                <i class="fas fa-bars"></i>
-            </div>
         </nav>
+
+        <div class="nav-mobile">
+            <div class="main-nav-logo">
+                <a href="index.html"><img src="assets/logo-lightbg.png" alt="Renee Fowler Logo" width="40px" height="52.17"></a>
+            </div>
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="nav-links-mobile">
+            <ul>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#design-process">Design Process</a></li>
+                <li><a href="index.html#about-me">About Me</a></li>
+                <li><a href="index.html#contact-me">Contact Me</a></li>
+            </ul>
+        </div>
 
         <!-- Case Study Introduction & Summary -->
         <header class="blocbox-case-study-bg">
