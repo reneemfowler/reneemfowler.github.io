@@ -181,12 +181,12 @@ footer {
 }
 
 button {
-    font-size: 0.667em; /* 12px */
-    line-height: 1.0;
+    line-height: 10px;
     text-transform: uppercase;
     text-align: center;
 
     a {
+        font-size: 12px; /* 12px */
         color: $black;
         font-weight: $lato-regular;
     }

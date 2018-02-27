@@ -1,6 +1,7 @@
 $(document).ready(function(){
     // Slick Slider
     $('.testimonial-wrapper').slick({
+        adaptiveHeight: true,
         dots: true
     });
 

@@ -141,12 +141,12 @@ footer {
     text-transform: lowercase; }
 
 button {
-  font-size: 0.667em;
-  /* 12px */
-  line-height: 1.0;
+  line-height: 10px;
   text-transform: uppercase;
   text-align: center; }
   button a {
+    font-size: 12px;
+    /* 12px */
     color: #2B2B2C;
     font-weight: 400; }
 
@@ -347,7 +347,7 @@ a {
   .ghost-button i {
     padding-right: 5px; }
   .ghost-button a {
-    font-size: 11px; }
+    font-size: 12px; }
   .ghost-button:hover {
     background-color: #56425E;
     border: 1px solid #56425E; }
@@ -541,12 +541,12 @@ nav {
 
 .tile-wrapper {
   position: relative;
-  width: 280px;
-  height: 280px; }
+  width: 250px;
+  height: 250px; }
   .tile-wrapper .view-case-study {
     position: absolute;
     bottom: 15%;
-    width: 280px;
+    width: 250px;
     pointer-events: none;
     display: none; }
   .tile-wrapper:hover .view-case-study {
@@ -559,19 +559,19 @@ nav {
     background-color: rgba(0, 0, 0, 0.7); }
 
 .left-diamond {
-  top: 110px;
-  left: 60px; }
+  top: 100px;
+  left: 50px; }
 
 .middle-diamond {
-  top: -110px; }
+  top: -100px; }
 
 .right-diamond {
-  top: 110px;
-  right: 60px; }
+  top: 100px;
+  right: 50px; }
 
 .project-tile {
-  width: 280px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   transform: rotate(45deg);
   box-shadow: 5px 5px 10px rgba(114, 114, 114, 0.6);
   display: flex;
@@ -636,7 +636,8 @@ nav {
     text-align: center; }
 
   .design-project-tiles {
-    margin-top: 200px; } }
+    margin-top: 200px;
+    margin-bottom: 150px; } }
 @media screen and (max-width: 768px) {
   .design-project-tiles {
     display: flex;
@@ -655,7 +656,7 @@ nav {
     top: 280px;
     right: 0; } }
 .design-process-wrapper {
-  padding: 50px 0;
+  padding: 50px 0 80px 0;
   max-width: 100%;
   display: flex;
   flex-direction: column;
@@ -663,7 +664,7 @@ nav {
 
 .design-process-intro {
   text-align: center;
-  padding-bottom: 90px;
+  padding-bottom: 60px;
   margin: 0 auto;
   max-width: 895px; }
 
@@ -820,7 +821,7 @@ section.testimonials {
   /* 14px */
   display: flex;
   justify-content: space-between;
-  padding: 15px 0 30px 0;
+  padding: 30px 0;
   width: 100%; }
 
 .case-study-summary {
@@ -956,7 +957,7 @@ section.testimonials {
   position: absolute;
   z-index: 1;
   opacity: 0.45;
-  background: #BEE2E2;
+  background: #D8EEEE;
   background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.35) 0%, rgba(136, 202, 201, 0.41) 23%, rgba(111, 134, 147, 0.53) 48%, rgba(118, 92, 128, 0.62) 73%, #583765 100%); }
 
 .conclusion-content {
