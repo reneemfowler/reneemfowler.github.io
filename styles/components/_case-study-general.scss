@@ -38,10 +38,11 @@
 .case-study-intro-container {
     max-width: $site-width;
     margin: 0 auto;
-    min-height: 82vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .cs-summary-details-container {
@@ -62,17 +63,17 @@
     font-size: 0.778em; /* 14px */
     display: flex;
     justify-content: space-between;
-    padding: 30px 0;
+    padding: 60px 0 30px 0;
     width: 100%;
 }
 
 .case-study-summary {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .cs-summary-content {
-    flex: 0 1 40%;
+    flex: 0 1 37.5%;
     align-self: flex-end;
 }
 

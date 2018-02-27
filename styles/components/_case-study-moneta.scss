@@ -1,5 +1,21 @@
-.moneta-case-study-bg {
-    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #4D7298 100%);
+.intro-container {
+    position: relative;
+}
+
+.moneta-intro-bg {
+    background: rgba(77, 114, 152, 0.15);
+    height: 90%;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.moneta-intro-bg-img {
+    background-image: url('../../assets/images/moneta-case-study/newlyweds.jpg');
+    opacity: 0.15;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .colour-swatches {

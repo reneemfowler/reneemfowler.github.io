@@ -200,6 +200,9 @@ button {
   /* 12px */
   color: #BEE2E2; }
 
+.cs-summary-content p {
+  margin-bottom: 0; }
+
 .chart-labels li {
   font-weight: 300;
   font-size: 0.667em;
@@ -799,10 +802,11 @@ section.testimonials {
 .case-study-intro-container {
   max-width: 1200px;
   margin: 0 auto;
-  min-height: 82vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: relative;
+  z-index: 1; }
 
 .cs-summary-details-container {
   max-width: 1200px;
@@ -821,15 +825,15 @@ section.testimonials {
   /* 14px */
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 60px 0 30px 0;
   width: 100%; }
 
 .case-study-summary {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-between; }
 
 .cs-summary-content {
-  flex: 0 1 40%;
+  flex: 0 1 37.5%;
   align-self: flex-end; }
 
 .cs-summary-detail-section {
@@ -1151,8 +1155,22 @@ section.testimonials {
     flex-wrap: wrap; }
     .foodlandia-logos ul li:nth-child(2) {
       margin-top: 20px; } }
-.moneta-case-study-bg {
-  background-image: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, #4D7298 100%); }
+.intro-container {
+  position: relative; }
+
+.moneta-intro-bg {
+  background: rgba(77, 114, 152, 0.15);
+  height: 90%;
+  top: 0;
+  position: absolute;
+  width: 100%; }
+
+.moneta-intro-bg-img {
+  background-image: url("../../assets/images/moneta-case-study/newlyweds.jpg");
+  opacity: 0.15;
+  background-position: top center;
+  background-repeat: no-repeat;
+  height: 100%; }
 
 .colour-swatches .moneta-dk-blue {
   background-color: #4D7298; }

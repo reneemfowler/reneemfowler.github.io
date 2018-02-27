@@ -260,6 +260,12 @@ button {
 
 
 // Case Study Typography
+.cs-summary-content {
+    p {
+        margin-bottom: 0;
+    }
+}
+
 .chart-labels {
     li {
         font-weight: $lato-light;
