@@ -32,7 +32,7 @@ h2 {
     line-height: 1.0; /* 48px */
     text-transform: lowercase;
     margin: 0;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
 }
 
 h3 {
@@ -55,9 +55,8 @@ h4 {
 }
 
 h5 {
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: $fira-sans-semi-bold;
-    font-size: 0.889em; /* 16px */
+    font-weight: $lato-bold;
+    font-size: 16px; /* 15px */
     color: $dark-purple;
     line-height: 1.4;
     text-transform: uppercase;
@@ -66,11 +65,12 @@ h5 {
 
 h6 {
     font-weight: $lato-bold;
-    font-size: 0.667em; /* 12px */
+    font-size: 14px; /* 12px */
     color: $dark-purple;
     line-height: 1.2;
     text-transform: uppercase;
     margin: 0;
+    padding-bottom: 5px;
 }
 
 ul {
@@ -89,7 +89,7 @@ a {
 .nav-links-desktop {
     ul {
         font-weight: $lato-regular;
-        font-size: 0.611em; /* 11px */
+        font-size: 0.667em; /* 12px */
         line-height: 1.35;
         text-transform: uppercase;
     }
@@ -109,8 +109,8 @@ a {
 
     li:nth-child(4):hover {
         a {
-            background-color: $med-green;
-            border: 1px solid $med-green;
+            background-color: $med-purple;
+            border: 1px solid $med-purple;
             padding: 10px 15px;
             color: #fff;
             text-decoration: none;
@@ -275,10 +275,14 @@ button {
 
         li {
             font-weight: $lato-light;
-            font-size: 0.667em; /* 12px */;
+            font-size: 0.778em; /* 14px */;
             line-height: 1.5;
         }
     }
+}
+
+.survey-pie-chart {
+    text-align: center;
 }
 
 .user-stories-flows-example {

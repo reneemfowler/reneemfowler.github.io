@@ -29,7 +29,7 @@ h2 {
   /* 48px */
   text-transform: lowercase;
   margin: 0;
-  padding-bottom: 30px; }
+  padding-bottom: 40px; }
 
 h3 {
   font-family: 'Fira Sans', sans-serif;
@@ -51,10 +51,9 @@ h4 {
   margin: 0; }
 
 h5 {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 600;
-  font-size: 0.889em;
-  /* 16px */
+  font-weight: 700;
+  font-size: 16px;
+  /* 15px */
   color: #342839;
   line-height: 1.4;
   text-transform: uppercase;
@@ -62,12 +61,13 @@ h5 {
 
 h6 {
   font-weight: 700;
-  font-size: 0.667em;
+  font-size: 14px;
   /* 12px */
   color: #342839;
   line-height: 1.2;
   text-transform: uppercase;
-  margin: 0; }
+  margin: 0;
+  padding-bottom: 5px; }
 
 ul {
   margin: 0; }
@@ -81,8 +81,8 @@ a {
 
 .nav-links-desktop ul {
   font-weight: 400;
-  font-size: 0.611em;
-  /* 11px */
+  font-size: 0.667em;
+  /* 12px */
   line-height: 1.35;
   text-transform: uppercase; }
 .nav-links-desktop a {
@@ -93,8 +93,8 @@ a {
   padding: 10px 15px;
   transition: all 0.25s ease-in-out; }
 .nav-links-desktop li:nth-child(4):hover a {
-  background-color: #88CAC9;
-  border: 1px solid #88CAC9;
+  background-color: #56425E;
+  border: 1px solid #56425E;
   padding: 10px 15px;
   color: #fff;
   text-decoration: none; }
@@ -211,9 +211,12 @@ button {
   padding-left: 25px; }
   .survey-finding-wrapper ul li {
     font-weight: 300;
-    font-size: 0.667em;
-    /* 12px */
+    font-size: 0.778em;
+    /* 14px */
     line-height: 1.5; }
+
+.survey-pie-chart {
+  text-align: center; }
 
 .user-stories-flows-example p {
   font-size: 0.778em;
@@ -343,12 +346,18 @@ a {
   cursor: pointer; }
   .ghost-button i {
     padding-right: 5px; }
+  .ghost-button a {
+    font-size: 11px; }
   .ghost-button:hover {
     background-color: #56425E;
     border: 1px solid #56425E; }
     .ghost-button:hover a {
       color: #fff;
       text-decoration: none; }
+
+.end-product-button {
+  border: 1px solid #EADEE2;
+  background: #EADEE2; }
 
 @media screen and (max-width: 768px) {
   .container {
@@ -393,17 +402,22 @@ nav {
           background-size: contain;
           background-repeat: no-repeat;
           background-position: center center;
-          display: block; }
+          display: block;
+          opacity: 0.60; }
         nav .nav-links-desktop ul li a.linkedin {
           background-image: url("../assets/icons/linkedin-black.svg"); }
           nav .nav-links-desktop ul li a.linkedin:hover {
-            background-image: url("../assets/icons/linkedin-colour.svg"); }
+            background-image: url("../assets/icons/linkedin-colour.svg");
+            opacity: 1.0; }
         nav .nav-links-desktop ul li a.dribbble {
           background-image: url("../assets/icons/dribbble-black.svg"); }
           nav .nav-links-desktop ul li a.dribbble:hover {
-            background-image: url("../assets/icons/dribbble-colour.svg"); }
+            background-image: url("../assets/icons/dribbble-colour.svg");
+            opacity: 1.0; }
         nav .nav-links-desktop ul li a.github {
           background-image: url("../assets/icons/github-black.svg"); }
+          nav .nav-links-desktop ul li a.github:hover {
+            opacity: 1.0; }
       nav .nav-links-desktop ul li:nth-child(5),
       nav .nav-links-desktop ul li:nth-child(6) {
         padding-right: 15px; }
@@ -806,7 +820,7 @@ section.testimonials {
   /* 14px */
   display: flex;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 15px 0 30px 0;
   width: 100%; }
 
 .case-study-summary {
@@ -1157,9 +1171,6 @@ section.testimonials {
 .moneta-logos li {
   width: 130px;
   height: 130px; }
-
-.moneta-typography div:last-child {
-  padding-top: 30px; }
 
 .moneta-headings {
   padding-right: 110px; }
