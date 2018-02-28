@@ -60,3 +60,17 @@
 .moneta-headings {
     padding-right: 110px;
 }
+
+
+// Media Queries
+@media screen and (max-width: $medium-screen) {
+    .moneta-intro-bg {
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: $small-screen) {
+    .moneta-intro-bg {
+        height: 40%;
+    }
+}

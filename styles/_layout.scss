@@ -92,8 +92,12 @@ a {
 }
 
 .end-product-button {
-    border: 1px solid $lt-pink;
-    background: $lt-pink;
+    border: 1px solid $dark-green;
+    background: $dark-green;
+
+    a {
+        color: #fff;
+    }
 }
 
 
