@@ -1,3 +1,25 @@
+.blocbox-intro-bg {
+    background: rgba(58, 63, 167, 0.15);
+}
+
+.blocbox-intro-bg-img {
+    background-image: url('../../assets/images/blocbox-case-study/collaboration.jpg');
+    opacity: 0.15;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.blocbox-showcase {
+    display: flex;
+    flex: 0 1 60%;
+
+    img {
+        display: block;
+        margin: auto;
+    }
+}
+
 .colour-swatches {
     .blocbox-dk-blue {
         background-color: $blocbox-dk-blue;

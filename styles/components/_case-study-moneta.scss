@@ -1,14 +1,7 @@
-.intro-container {
-    position: relative;
-}
-
 .moneta-intro-bg {
     background: rgba(77, 114, 152, 0.15);
-    height: 90%;
-    top: 0;
-    position: absolute;
-    width: 100%;
 }
+
 
 .moneta-intro-bg-img {
     background-image: url('../../assets/images/moneta-case-study/newlyweds.jpg');
@@ -59,18 +52,4 @@
 
 .moneta-headings {
     padding-right: 110px;
-}
-
-
-// Media Queries
-@media screen and (max-width: $medium-screen) {
-    .moneta-intro-bg {
-        height: 50%;
-    }
-}
-
-@media screen and (max-width: $small-screen) {
-    .moneta-intro-bg {
-        height: 40%;
-    }
 }

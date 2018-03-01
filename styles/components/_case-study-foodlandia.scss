@@ -1,12 +1,23 @@
-.foodlandia-case-study-bg {
-    background-image: linear-gradient(0deg, rgba(255,255,255,0.00) 0%, #5138CA 110%);
+.foodlandia-intro-bg {
+    background: rgba(77, 114, 152, 0.10);
+}
 
-    .case-study-summary {
-        justify-content: center;
-    }
 
-    .cs-summary-content {
-        padding-left: 80px;
+.foodlandia-intro-bg-img {
+    background-image: url('../../assets/images/foodlandia-case-study/takeout.jpg');
+    opacity: 0.15;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.foodlandia-showcase {
+    display: flex;
+    flex: 0 1 60%;
+
+    img {
+        display: block;
+        margin: auto;
     }
 }
 
@@ -61,6 +72,13 @@
 }
 
 @media screen and (max-width: $small-screen) {
+    .foodlandia-showcase {
+        img {
+            width: 50%;
+            height: 50%;
+        }
+    }
+
     .foodlandia-logos {
         ul {
             flex-wrap: wrap;
