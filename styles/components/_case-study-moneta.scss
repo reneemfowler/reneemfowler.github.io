@@ -53,3 +53,11 @@
 .moneta-headings {
     padding-right: 110px;
 }
+
+@media screen and (max-width: $small-screen) {
+    .moneta-typography {
+        .moneta-headings {
+            padding-bottom: 30px;
+        }
+    }
+}

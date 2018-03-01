@@ -374,9 +374,17 @@ button {
     button {
         font-size: 0.647em; /* 11px */
     }
+
+    .process-tile ul {
+        font-size: 0.8em;
+    }
 }
 
 @media screen and (max-width: $small-screen) {
+    body {
+        text-align: center;
+    }
+
     h1 {
         margin: 0;
     }
@@ -398,7 +406,14 @@ button {
         ul {
             li {
                 font-size: 0.823em; /* 14px */
+                text-align: left;
             }
+        }
+    }
+
+    .competitive-analysis {
+        ol {
+            text-align: left;
         }
     }
 }
